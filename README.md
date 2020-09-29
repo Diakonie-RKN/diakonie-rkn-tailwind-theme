@@ -18,3 +18,5 @@ Open `index.html` in your browser.
 ## Component Library / Style Guide
 
 * [Component Library built with Fractal](https://diakonie-rkn.github.io/diakonie-rkn-tailwind-theme/docs-build/)
+* [Diakonie Deutschland Design Guidelines](https://design.diakonie.de/)
+* [Diakonie Rhein-Kreis Neuss Website](https://www.diakonie-rkn.de/)
