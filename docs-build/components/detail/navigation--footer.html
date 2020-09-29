@@ -11,7 +11,7 @@
     <script>var cl = document.querySelector('html').classList; cl.remove('no-js'); cl.add('has-js');</script>
     <link rel="shortcut icon" href="../../themes/mandelbrot/favicon.ico" type="image/ico">
 
-<link rel="stylesheet" href="../../themes/mandelbrot/css/default.css?cachebust=1.4.0" type="text/css">
+<link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.4.0" type="text/css">
 
 <link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.4.0" type="text/css">
 
@@ -156,7 +156,14 @@
 <div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-603793d72386b23ceb510c8512eec87e-panel-html">
     <code class="Code Code--lang-html hljs">
         
-        <pre></pre>
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dw-tile bg-dw-area-1 print:hidden"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex flex-row flex-wrap justify-center text-lg font-bold"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"px-3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Impressum<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"px-3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Datenschutz<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"px-3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Stellenangebote<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"px-3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>Kontakt<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span></pre>
         
     </code>
 </div>
@@ -164,7 +171,13 @@
     
     <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-603793d72386b23ceb510c8512eec87e-panel-view">
     <code class="Code Code--lang-twig hljs">
-        <pre></pre>
+        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"dw-tile bg-dw-area-1 print:hidden"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex flex-row flex-wrap justify-center text-lg font-bold"</span>&gt;</span>
+        </span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">for</span></span> page in pages %}</span><span class="xml">
+            <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"px-3"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span></span><span class="hljs-template-variable">{{ page }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+        </span><span class="hljs-template-tag">{% <span class="hljs-name"><span class="hljs-keyword">endfor</span></span> %}</span><span class="xml">
+    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span></span></pre>
     </code>
 </div>
 
@@ -173,7 +186,14 @@
     <code class="Code Code--lang-json hljs">
         
             
-            <pre><span class="hljs-comment">/* No context defined for this component. */</span></pre>
+            <pre>{
+  <span class="hljs-attr">"pages"</span>: [
+    <span class="hljs-string">"Impressum"</span>,
+    <span class="hljs-string">"Datenschutz"</span>,
+    <span class="hljs-string">"Stellenangebote"</span>,
+    <span class="hljs-string">"Kontakt"</span>
+  ]
+}</pre>
             
         
     </code>
@@ -200,7 +220,7 @@
             <span class="Meta-value Meta-value--linkList">
             
                 <a href="navigation--default.html">
-                    <span>Default</span>
+                    <span>Top Bar</span>
                 </a>, 
             
                 <a href="">
@@ -601,7 +621,7 @@
         
         <li class="Tree-item Tree-entity" data-role="item">
             <a class="Tree-entityLink" href="navigation--default.html" data-pjax>
-                <span>Default</span>
+                <span>Top Bar</span>
                 
 
 <div class="Status Status--unlabelled">
@@ -719,6 +739,86 @@
         </li>
         
     
+        
+        <li class="Tree-item Tree-collection Tree-depth-2" data-behaviour="collection" id="tree-components-collection-pages">
+            <button class="Tree-collectionLabel" data-role="toggle" aria-expanded="true" aria-controls="tree-components-collection-pages-items">
+                Pages
+            </button>
+            <ul class="Tree-collectionItems" data-role="items" id="tree-components-collection-pages-items">
+            
+            
+            
+            
+    
+        
+        <li class="Tree-item Tree-collection Tree-depth-3" data-behaviour="collection" id="tree-components-collection-error">
+            <button class="Tree-collectionLabel" data-role="toggle" aria-expanded="true" aria-controls="tree-components-collection-error-items">
+                Error
+            </button>
+            <ul class="Tree-collectionItems" data-role="items" id="tree-components-collection-error-items">
+            
+            
+            
+            
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="error--404.html" data-pjax>
+                <span>Page not found</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+        
+        
+        <li class="Tree-item Tree-entity" data-role="item">
+            <a class="Tree-entityLink" href="error--offline.html" data-pjax>
+                <span>Device Offline</span>
+                
+
+<div class="Status Status--unlabelled">
+
+<div class="Status-dots">
+
+
+<span class="Status-dot" style="border-color: #29CC29;" title="Ready"></span>
+
+
+</div>
+
+</div>
+
+
+            </a>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
+
+            </ul>
+        </li>
+        
+    
 
     </ul>
 </div>
@@ -742,7 +842,7 @@
         </div>
         <div class="Tree-aside">
             Built on:
-            <time datetime="2020-09-29T15:08:34.991Z">
+            <time datetime="2020-09-29T15:53:25.469Z">
                 9/29/2020
             </time>
         </div>
