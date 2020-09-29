@@ -17,4 +17,4 @@ Open `index.html` in your browser.
 
 ## Component Library / Style Guide
 
-* [Component Library built with Fractal](https://diakonie-rkn.github.io/diakonie-rkn-tailwind-theme/)
+* [Component Library built with Fractal](https://diakonie-rkn.github.io/diakonie-rkn-tailwind-theme/docs-build/)

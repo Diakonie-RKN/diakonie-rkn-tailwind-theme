@@ -112,7 +112,7 @@ gulp.task('icons', function() {
         .pipe(gulp.dest('dist/img'));
 })
 
-gulp.task('default', gulp.series('css', 'copy-js-tools', 'logos', 'icons', 'svg', 'fractal:build'));
+gulp.task('default', gulp.series('css', 'copy-js-tools', 'logos', 'icons', 'svg'));
 
 
 
