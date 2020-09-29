@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'cdu_kievit';
+    src: url('/site/templates/cdu-neuss-tailwind/dist/fonts/cdukvtw_-webfont.woff2') format('woff2'),
+    url('/site/templates/cdu-neuss-tailwind/dist/fonts/cdukvtw_-webfont.woff') format('woff'),
+    url('/site/templates/cdu-neuss-tailwind/dist/fonts/CDUKvTW_.ttf') format('ttf');
+    font-display: swap;
+}

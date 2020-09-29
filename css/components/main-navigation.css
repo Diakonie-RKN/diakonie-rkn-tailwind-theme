@@ -1,0 +1,36 @@
+.main-navigation {
+    @apply bg-white shadow;
+
+    ul {
+        @apply py-4;
+    }
+
+    li {
+        a {
+            @apply block;
+        }
+        a, button {
+            @apply text-xl font-bold text-dw-area-4 py-2 px-6 w-full;
+
+            &:hover {
+                @apply underline;
+            }
+        }
+
+        button.back {
+            @apply text-base font-bold uppercase text-dw-gray-dark border-b border-dw-gray-light mb-3 pb-5;
+        }
+
+        &.active {
+            a, button {
+                @apply bg-dw-area-1 text-white;
+            }
+        }
+
+        &.active-parent {
+            a, button {
+                @apply bg-dw-area-1-200 text-white;
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+dt {
+    @apply font-bold text-xs uppercase;
+}
+
+dd {
+    @apply mb-4;
+}

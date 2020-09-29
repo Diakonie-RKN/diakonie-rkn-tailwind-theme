@@ -1,0 +1,20 @@
+{
+  "context": {
+    "modifier": "default"
+  },
+  "variants": [
+    {
+      "name": "Submit",
+      "context": {
+        "modifier": "submit"
+      }
+    },
+    {
+      "name": "Submit Dark",
+      "preview": "@preview-violet",
+      "context": {
+        "modifier": "submit-dark"
+      }
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 120px;
+}
+
+body {
+    @apply text-dw-black bg-dw-gray-dark;
+}
+
+[x-cloak] {
+    display: none !important;
+}
+
+#main {
+    @apply mx-auto bg-white;
+    max-width: 1600px;
+}
+
+h1 {
+    @apply text-2xl;
+}
+
+@screen lg {
+    h1 {
+        @apply text-5xl;
+    }
+}

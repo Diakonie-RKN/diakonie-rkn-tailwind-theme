@@ -1,0 +1,23 @@
+name: Build distribution
+
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  deploy:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@master
+    - name: Create local changes
+      run: |
+        cd site/templates/resources/diakonie-rkn-theme-tw
+        yarn install
+        gulp
+    - name: Commit and push local changes
+      uses: stefanzweifel/git-auto-commit-action@v4.1.1
+      with:
+        commit_message: Apply theme changes

@@ -1,0 +1,10 @@
+.dw-tile {
+    @apply p-12 text-white;
+
+    a {
+        @apply text-white;
+        &:hover {
+            @apply underline;
+        }
+    }
+}

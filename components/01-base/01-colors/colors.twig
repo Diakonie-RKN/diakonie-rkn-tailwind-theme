@@ -1,0 +1,19 @@
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 xl:grid-cols-8 gap-6">
+    {% for name, value in colors %}
+        {% if value is iterable %}
+            <div class="">
+                {% for subName, subValue in value %}
+                    <div class="bg-{{ name }}{% if subName != 'default' %}-{{ subName }}{% endif%} w-40 h-40 text-white flex flex-col items-center justify-center mb-2">
+                        <p>{{ name }}{% if subName != 'default' %}-{{ subName }}{% endif %}</p>
+                        <p>{{ subValue }}</p>
+                    </div>
+                {% endfor %}
+            </div>
+        {% else %}
+            <div class="bg-{{ name }} w-40 h-40 text-white flex flex-col items-center justify-center">
+                <p>{{ name }}</p>
+                <p>{{ value }}</p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>
