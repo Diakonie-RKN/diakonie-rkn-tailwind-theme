@@ -14,7 +14,6 @@ jobs:
     - uses: actions/checkout@master
     - name: Create local changes
       run: |
-        cd site/templates/resources/diakonie-rkn-theme-tw
         yarn install
         gulp
     - name: Commit and push local changes
