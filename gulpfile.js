@@ -133,6 +133,17 @@ fractal.components.set('path', `${__dirname}/components`); // location of the co
 fractal.components.engine(twigAdapter);
 fractal.components.set('ext', '.twig');
 
+const mandelbrot = require('@frctl/mandelbrot');
+
+// create a new instance with custom config options
+const myCustomisedTheme = mandelbrot({
+    skin: 'white',
+    // any other theme configuration values here
+});
+
+// tell Fractal to use the configured theme by default
+fractal.web.theme(myCustomisedTheme);
+
 // any other configuration or customisation here
 
 const logger = fractal.cli.console; // keep a reference to the fractal CLI console utility
