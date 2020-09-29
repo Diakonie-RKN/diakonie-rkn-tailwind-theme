@@ -1,6 +1,6 @@
 {
   "name": "diakonie-rkn-tailwind-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Jens Kuesters",
   "license": "MIT",
   "dependencies": {
@@ -38,6 +38,9 @@
     "gulp-svgmin": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "tailwind-config-viewer": "^1.2.2"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "scripts": {
     "tailwind-config-viewer": "tailwind-config-viewer export"
