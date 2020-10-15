@@ -38,7 +38,7 @@
     "gulp-svg-sprite": "^1.5.0",
     "gulp-svgmin": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "tailwind-config-viewer": "^1.2.2"
+    "tailwind-config-viewer": "^1.2.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
