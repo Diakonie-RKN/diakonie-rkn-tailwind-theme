@@ -7950,10 +7950,10 @@ symbol-observable@1.0.1:
   resolved "https://registry.yarnpkg.com/symbol-observable/-/symbol-observable-1.0.1.tgz#8340fc4702c3122df5d22288f88283f513d3fdd4"
   integrity sha1-g0D8RwLDEi310iKI+IKD9RPT/dQ=
 
-tailwind-config-viewer@^1.2.2:
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.2.2.tgz#3863549afd8b3a4be8634b85799fb0cbffa61e67"
-  integrity sha512-thYG4HISSQvC/WWEyFI4MYflFX6JHvnNP11RXcgKwUDnI0wmu2DforoLWHu4hIrAFcNloB3C9c1bMoTt6W46rg==
+tailwind-config-viewer@^1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.2.3.tgz#48061d16e678d9df59c117f6a15e1b3ecc773e3b"
+  integrity sha512-9uPQu2POhtPI4oOa57SYcpMbFA3GyiDA2Suw98FqKftwyZyhSFG8zfIDQmYAZKkaiA60kBVtaIoltA4lNMHX+w==
   dependencies:
     "@koa/router" "^9.0.1"
     commander "^6.0.0"
