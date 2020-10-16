@@ -23,67 +23,76 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/fractal@^1.3.0":
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.3.0.tgz#ab714c779079592166c98896c709d6c68b17c390"
-  integrity sha512-4qb/vy7lF6G+9Opd1x+WB75CHT0Sq2RG4jrE9EEFjPmWSpf80r5BOD9+vHW6+cZ28YABzbjKOIIIRXgQhy3sgg==
+"@frctl/core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.1.0.tgz#034a433803a4dbdac5d929d12b99744d58436074"
+  integrity sha512-fLEAovR/epfVO7CZhwWPrONoAzHzrnkiDiFzR7fWo+L73cq0jdbtx4uISLMO2ac86y/bpeGJ5U5U/70GjvQT4w==
   dependencies:
     "@allmarkedup/fang" "^1.0.0"
-    "@frctl/handlebars" "^1.2.0"
-    "@frctl/mandelbrot" "^1.3.0"
     anymatch "^2.0.0"
     bluebird "^3.5.2"
-    browser-sync "^2.26.4"
+    chokidar "^3.4.2"
+    co "^4.6.0"
+    globby "^6.0.0"
+    highlight.js "^9.5.0"
+    istextorbinary "^3.3.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    marked "^0.7.0"
+    minimist "^1.2.2"
+    mixwith "^0.1.1"
+    readable-stream "^2.1.4"
+
+"@frctl/fractal@^1.4.0":
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.4.0.tgz#1b3336482e23f3de8a4c6d3b64130a93780e2b89"
+  integrity sha512-k1T9XSKrwg454Mw/U6d58nNnTVLQBGNKg5Yk91voJoPtSH16npsl3IhCaGEe5WULXNjB8FbzS5Wk4zK+d+lQMg==
+  dependencies:
+    "@frctl/core" "^0.1.0"
+    "@frctl/handlebars" "^1.2.1"
+    "@frctl/mandelbrot" "^1.5.0"
+    "@frctl/web" "^0.1.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
     chalk "^1.1.3"
-    chokidar "^3.3.1"
+    chokidar "^3.4.2"
     cli-table3 "^0.5.0"
     co "^4.6.0"
     columnify "^1.5.4"
     execa "^4.0.1"
-    express "^4.14.0"
-    fs-extra "^0.30.0"
-    globby "^6.0.0"
+    fs-extra "^9.0.0"
     gray-matter "^2.0.2"
-    handlebars "^4.0.13"
-    highlight.js "^9.5.0"
+    handlebars "^4.7.6"
     inquirer "^1.1.2"
-    istextorbinary "^3.3.0"
-    js-yaml "^3.13.1"
     liftoff "^2.3.0"
     lodash "^4.17.11"
     log-update "^1.0.2"
-    marked "^0.7.0"
     mime "^1.3.4"
-    minimist "^1.2.2"
-    mixwith "^0.1.1"
-    nunjucks "^3.2.1"
-    path-to-regexp "^1.5.3"
-    portscanner "^1.0.0"
-    readable-stream "^2.1.4"
     require-all "^2.0.0"
     semver "^5.3.0"
-    throat "^3.0.0"
     update-notifier "^2.0.0"
     vinyl "^1.2.0"
     vorpal "^1.12.0"
 
-"@frctl/handlebars@^1.2.0":
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.0.tgz#55a1b3cdb652a12ee147ca22dde87b91d419005e"
-  integrity sha512-5XFvYpKmVLD4nQmCxf2tAhLaQ8WNDN55a7BS1lg//jAMQz+v+izoiP3RpoOa5UNDOZ7CpilsvTU9m5lsUSe72w==
+"@frctl/handlebars@^1.2.1":
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.1.tgz#088dc416d8e5c08673d5fc792187b37dbcccde46"
+  integrity sha512-M+x+h+Tk7qF6UxdkSukPNmTYwKXJfDRkI56kGxF5LnEeXKzliRkFVFighksu4w1VxWFZ8LgZyXeNPm0wfypTsg==
   dependencies:
-    bluebird "^3.4.1"
-    handlebars "^4.0.5"
-    lodash "^4.12.0"
-    promised-handlebars "^2.0.0"
+    "@frctl/core" "^0.1.0"
+    bluebird "^3.5.2"
+    handlebars "^4.7.6"
+    lodash "^4.17.11"
+    promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.3.0", "@frctl/mandelbrot@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.4.0.tgz#3ca8517a2e6a8aeef740de584616aaa6e908c75a"
-  integrity sha512-rqAoeK+CxcqGa0DJjvjV9L44Srr/0H1XUIJqS+2Lx03i5ya/AehDesKvmID1MrTX28O+wyBuiX91+MQZjNo85A==
+"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.5.0.tgz#cda75fb98e299961ee5b4bfdcdd0f0f030f3a5ec"
+  integrity sha512-+Rn+KZydsdnn9+KRmu4VYQM4kMp+r0f2lDYweRwdvDuq1MP3ZrpQc/9BVefJqXO9LCiAJir9Fijlrts42ko6lA==
   dependencies:
+    "@frctl/web" "^0.1.0"
     js-beautify "^1.6.2"
-    lodash "^4.12.0"
+    lodash "^4.17.11"
 
 "@frctl/twig@^1.2.0":
   version "1.2.0"
@@ -92,6 +101,26 @@
   dependencies:
     lodash "^4.17.10"
     twig "^1.14.0"
+
+"@frctl/web@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.0.tgz#614eb4f8551229941a40d61c8d446df31ad49328"
+  integrity sha512-sT+xMeyFhpnKYtuOBb8MMp0oZpcncO+hji/5pb9vFycJeXaLnIGl9QuNtwHWmH6n75RAzRXjoNxQI6KZCQX+hw==
+  dependencies:
+    "@frctl/core" "^0.1.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    browser-sync "^2.26.12"
+    chokidar "^3.4.2"
+    express "^4.14.0"
+    fs-extra "^9.0.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    nunjucks "^3.2.1"
+    path-to-regexp "^1.5.3"
+    portscanner "^1.0.0"
+    require-all "^2.0.0"
+    throat "^3.0.0"
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
@@ -1907,7 +1936,7 @@ blob@0.0.5:
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.5.tgz#d680eeef25f8cd91ad533f5b01eed48e64caf683"
   integrity sha512-gaqbzQPqOoamawKg0LGVd7SzLgXS+JH61oWprSLH+P+abTczqJbhTR8CmJ2u9/bUYNmHTGJx/UEmn6doAvvuig==
 
-bluebird@^3.4.1, bluebird@^3.5.2:
+bluebird@^3.5.2:
   version "3.7.2"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.7.2.tgz#9f229c15be272454ffa973ace0dbee79a1b0c36f"
   integrity sha512-XpNj6GDQzdfW+r2Wnn7xiSAd7TM3jzkxGXBGTtWKuSXv1xUV+azxAm8jdWZN06QTQk+2N2XB9jRDkvbmQmcRtg==
@@ -2004,7 +2033,7 @@ browser-sync-ui@^2.26.12:
     socket.io-client "^2.0.4"
     stream-throttle "^0.1.3"
 
-browser-sync@^2.26.4:
+browser-sync@^2.26.12:
   version "2.26.12"
   resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.26.12.tgz#2724df702ef8880e711c1bf62afd7c93a3a80462"
   integrity sha512-1GjAe+EpZQJgtKhWsxklEjpaMV0DrRylpHRvZWgOphDQt+bfLZjfynl/j1WjSFIx8ozj9j78g6Yk4TqD3gKaMA==
@@ -2231,10 +2260,10 @@ chokidar@^2.0.0:
   optionalDependencies:
     fsevents "^1.2.7"
 
-chokidar@^3.3.0, chokidar@^3.3.1, chokidar@^3.4.1:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.2.tgz#38dc8e658dec3809741eb3ef7bb0a47fe424232d"
-  integrity sha512-IZHaDeBeI+sZJRX7lGcXsdzgvZqKv6sECqsbErJA4mHWfpRrD8B97kSFN4cQz6nGBGiuFia1MKR4d6c1o8Cv7A==
+chokidar@^3.3.0, chokidar@^3.4.1, chokidar@^3.4.2:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
+  integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
   dependencies:
     anymatch "~3.1.1"
     braces "~3.0.2"
@@ -2242,7 +2271,7 @@ chokidar@^3.3.0, chokidar@^3.3.1, chokidar@^3.4.1:
     is-binary-path "~2.1.0"
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
-    readdirp "~3.4.0"
+    readdirp "~3.5.0"
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -3817,17 +3846,6 @@ fs-extra@3.0.1:
     jsonfile "^3.0.0"
     universalify "^0.1.0"
 
-fs-extra@^0.30.0:
-  version "0.30.0"
-  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-0.30.0.tgz#f233ffcc08d4da7d432daa449776989db1df93f0"
-  integrity sha1-8jP/zAjU2n1DLapEl3aYnbHfk/A=
-  dependencies:
-    graceful-fs "^4.1.2"
-    jsonfile "^2.1.0"
-    klaw "^1.0.0"
-    path-is-absolute "^1.0.0"
-    rimraf "^2.2.8"
-
 fs-extra@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-1.0.0.tgz#cd3ce5f7e7cb6145883fcae3191e9877f8587950"
@@ -4240,7 +4258,7 @@ gulplog@^1.0.0:
   dependencies:
     glogg "^1.0.0"
 
-handlebars@^4.0.13, handlebars@^4.0.5:
+handlebars@^4.7.6:
   version "4.7.6"
   resolved "https://registry.yarnpkg.com/handlebars/-/handlebars-4.7.6.tgz#d4c05c1baf90e9945f77aa68a7a219aa4a7df74e"
   integrity sha512-1f2BACcBfiwAfStCKZNrUCgqNZkGsAT7UM3kkYtXuLo0KnaVfjKOyf7PRzB6++aK9STyT1Pd2ZCPe3EGOXleXA==
@@ -5521,7 +5539,7 @@ lodash@^3.3.1:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
-lodash@^4.12.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.3.0, lodash@^4.5.1:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.3.0, lodash@^4.5.1:
   version "4.17.20"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
   integrity sha512-PlhdFcillOINfeV7Ni6oF1TAEayyZBoZ8bcshTHqOYJYlrqzRK5hagpagky5o4HfCzzd1TRkXPMFq6cKk9rGmA==
@@ -6688,7 +6706,7 @@ progress@^1.1.8:
   resolved "https://registry.yarnpkg.com/progress/-/progress-1.1.8.tgz#e260c78f6161cdd9b0e56cc3e0a85de17c7a57be"
   integrity sha1-4mDHj2Fhzdmw5WzD4Khd4Xx6V74=
 
-promised-handlebars@^2.0.0:
+promised-handlebars@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/promised-handlebars/-/promised-handlebars-2.0.1.tgz#a662a4278895b4c13f815ecf223691ac3ca7fdca"
   integrity sha1-pmKkJ4iVtME/gV7PIjaRrDyn/co=
@@ -6907,10 +6925,10 @@ readdirp@^2.2.1:
     micromatch "^3.1.10"
     readable-stream "^2.0.2"
 
-readdirp@~3.4.0:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
-  integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
 
@@ -7174,13 +7192,6 @@ reusify@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/reusify/-/reusify-1.0.4.tgz#90da382b1e126efc02146e90845a88db12925d76"
   integrity sha512-U9nH88a3fc/ekCF1l0/UP1IosiuIjyTh7hBvXVMHYgVcfGvt897Xguj2UOLDeI5BG2m7/uwyaLVT6fbtCwTyzw==
-
-rimraf@^2.2.8:
-  version "2.7.1"
-  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.7.1.tgz#35797f13a7fdadc566142c29d4f07ccad483e3ec"
-  integrity sha512-uWjbaKIK3T1OSVptzX7Nl6PvQ3qAGtKEtVRjRuazjfL3Bx5eI409VZSqgND+4UNnmzLVdPj9FqFJNPqBZFve4w==
-  dependencies:
-    glob "^7.1.3"
 
 robust-predicates@^2.0.4:
   version "2.0.4"
