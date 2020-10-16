@@ -23,6 +23,26 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
+"@frctl/core@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.1.0.tgz#034a433803a4dbdac5d929d12b99744d58436074"
+  integrity sha512-fLEAovR/epfVO7CZhwWPrONoAzHzrnkiDiFzR7fWo+L73cq0jdbtx4uISLMO2ac86y/bpeGJ5U5U/70GjvQT4w==
+  dependencies:
+    "@allmarkedup/fang" "^1.0.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    chokidar "^3.4.2"
+    co "^4.6.0"
+    globby "^6.0.0"
+    highlight.js "^9.5.0"
+    istextorbinary "^3.3.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    marked "^0.7.0"
+    minimist "^1.2.2"
+    mixwith "^0.1.1"
+    readable-stream "^2.1.4"
+
 "@frctl/fractal@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.3.0.tgz#ab714c779079592166c98896c709d6c68b17c390"
@@ -77,13 +97,14 @@
     lodash "^4.12.0"
     promised-handlebars "^2.0.0"
 
-"@frctl/mandelbrot@^1.3.0", "@frctl/mandelbrot@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.4.0.tgz#3ca8517a2e6a8aeef740de584616aaa6e908c75a"
-  integrity sha512-rqAoeK+CxcqGa0DJjvjV9L44Srr/0H1XUIJqS+2Lx03i5ya/AehDesKvmID1MrTX28O+wyBuiX91+MQZjNo85A==
+"@frctl/mandelbrot@^1.3.0", "@frctl/mandelbrot@^1.5.0":
+  version "1.5.0"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.5.0.tgz#cda75fb98e299961ee5b4bfdcdd0f0f030f3a5ec"
+  integrity sha512-+Rn+KZydsdnn9+KRmu4VYQM4kMp+r0f2lDYweRwdvDuq1MP3ZrpQc/9BVefJqXO9LCiAJir9Fijlrts42ko6lA==
   dependencies:
+    "@frctl/web" "^0.1.0"
     js-beautify "^1.6.2"
-    lodash "^4.12.0"
+    lodash "^4.17.11"
 
 "@frctl/twig@^1.2.0":
   version "1.2.0"
@@ -92,6 +113,26 @@
   dependencies:
     lodash "^4.17.10"
     twig "^1.14.0"
+
+"@frctl/web@^0.1.0":
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.0.tgz#614eb4f8551229941a40d61c8d446df31ad49328"
+  integrity sha512-sT+xMeyFhpnKYtuOBb8MMp0oZpcncO+hji/5pb9vFycJeXaLnIGl9QuNtwHWmH6n75RAzRXjoNxQI6KZCQX+hw==
+  dependencies:
+    "@frctl/core" "^0.1.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    browser-sync "^2.26.12"
+    chokidar "^3.4.2"
+    express "^4.14.0"
+    fs-extra "^9.0.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    nunjucks "^3.2.1"
+    path-to-regexp "^1.5.3"
+    portscanner "^1.0.0"
+    require-all "^2.0.0"
+    throat "^3.0.0"
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
@@ -2004,7 +2045,7 @@ browser-sync-ui@^2.26.12:
     socket.io-client "^2.0.4"
     stream-throttle "^0.1.3"
 
-browser-sync@^2.26.4:
+browser-sync@^2.26.12, browser-sync@^2.26.4:
   version "2.26.12"
   resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.26.12.tgz#2724df702ef8880e711c1bf62afd7c93a3a80462"
   integrity sha512-1GjAe+EpZQJgtKhWsxklEjpaMV0DrRylpHRvZWgOphDQt+bfLZjfynl/j1WjSFIx8ozj9j78g6Yk4TqD3gKaMA==
@@ -2243,6 +2284,21 @@ chokidar@^3.3.0, chokidar@^3.3.1, chokidar@^3.4.1:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
+chokidar@^3.4.2:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
+  integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -6911,6 +6967,13 @@ readdirp@~3.4.0:
   version "3.4.0"
   resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.4.0.tgz#9fdccdf9e9155805449221ac645e8303ab5b9ada"
   integrity sha512-0xe001vZBnJEK+uKcj8qOhyAKPzIT+gStxWr3LCB0DwcXR5NZJ3IaC+yGnHCYzB/S7ov3m3EEbZI2zeNvX+hGQ==
+  dependencies:
+    picomatch "^2.2.1"
+
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
   dependencies:
     picomatch "^2.2.1"
 
