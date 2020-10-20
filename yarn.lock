@@ -23,6 +23,26 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
+"@frctl/core@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.1.1.tgz#db135712da098d594a6c108c69c6635fff81f840"
+  integrity sha512-FG5DZwH9xlqNqB73qLgMiB5qAKBBg27hqZ0JkaG29pNqXMDjQ83DULjM7sG2ToEJ++bVhf/Bkd+NANCDs1KXRg==
+  dependencies:
+    "@allmarkedup/fang" "^1.0.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    chokidar "^3.4.2"
+    co "^4.6.0"
+    globby "^6.0.0"
+    highlight.js "^9.5.0"
+    istextorbinary "^3.3.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    marked "^0.7.0"
+    minimist "^1.2.2"
+    mixwith "^0.1.1"
+    readable-stream "^2.1.4"
+
 "@frctl/fractal@^1.3.0":
   version "1.3.0"
   resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.3.0.tgz#ab714c779079592166c98896c709d6c68b17c390"
@@ -77,13 +97,14 @@
     lodash "^4.12.0"
     promised-handlebars "^2.0.0"
 
-"@frctl/mandelbrot@^1.3.0", "@frctl/mandelbrot@^1.4.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.4.0.tgz#3ca8517a2e6a8aeef740de584616aaa6e908c75a"
-  integrity sha512-rqAoeK+CxcqGa0DJjvjV9L44Srr/0H1XUIJqS+2Lx03i5ya/AehDesKvmID1MrTX28O+wyBuiX91+MQZjNo85A==
+"@frctl/mandelbrot@^1.3.0", "@frctl/mandelbrot@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.5.1.tgz#61adeb99eb228aa69dcf68449f12e1da574031a1"
+  integrity sha512-kg3ItjVD6DwpTdmmxicCAZ+1JDldAIoI/HpIkahR6Byzowup5FRculzLbrhtqE2QMQTuP1aawxkxUNxGv/kfnw==
   dependencies:
+    "@frctl/web" "^0.1.1"
     js-beautify "^1.6.2"
-    lodash "^4.12.0"
+    lodash "^4.17.11"
 
 "@frctl/twig@^1.2.0":
   version "1.2.0"
@@ -92,6 +113,26 @@
   dependencies:
     lodash "^4.17.10"
     twig "^1.14.0"
+
+"@frctl/web@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.1.tgz#7152fde305aad5c752edbac714aca5cf8891f8d3"
+  integrity sha512-QGiDE/fgWVFkfLWd05T1ftNnzZlmLo/rCdHXcXrsKpYriWol6YZzJkvDQ+RnFJpoP+YcnR/m1+zPM+ejZlD7Rg==
+  dependencies:
+    "@frctl/core" "^0.1.1"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    browser-sync "^2.26.12"
+    chokidar "^3.4.2"
+    express "^4.14.0"
+    fs-extra "^9.0.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    nunjucks "^3.2.1"
+    path-to-regexp "^1.5.3"
+    portscanner "^1.0.0"
+    require-all "^2.0.0"
+    throat "^3.0.0"
 
 "@fullhuman/postcss-purgecss@^2.1.2":
   version "2.3.0"
@@ -1992,6 +2033,16 @@ browser-sync-client@^2.26.12:
     mitt "^1.1.3"
     rxjs "^5.5.6"
 
+browser-sync-client@^2.26.13:
+  version "2.26.13"
+  resolved "https://registry.yarnpkg.com/browser-sync-client/-/browser-sync-client-2.26.13.tgz#ee5fa3ec36fe2a03f9887553cac6846751c8232d"
+  integrity sha512-p2VbZoYrpuDhkreq+/Sv1MkToHklh7T1OaIntDwpG6Iy2q/XkBcgwPcWjX+WwRNiZjN8MEehxIjEUh12LweLmQ==
+  dependencies:
+    etag "1.8.1"
+    fresh "0.5.2"
+    mitt "^1.1.3"
+    rxjs "^5.5.6"
+
 browser-sync-ui@^2.26.12:
   version "2.26.12"
   resolved "https://registry.yarnpkg.com/browser-sync-ui/-/browser-sync-ui-2.26.12.tgz#6a309644d3ae0fe743906558a94caf6fd118719f"
@@ -2003,6 +2054,54 @@ browser-sync-ui@^2.26.12:
     server-destroy "1.0.1"
     socket.io-client "^2.0.4"
     stream-throttle "^0.1.3"
+
+browser-sync-ui@^2.26.13:
+  version "2.26.13"
+  resolved "https://registry.yarnpkg.com/browser-sync-ui/-/browser-sync-ui-2.26.13.tgz#7a0622df2c1cc4fb0dd8edd511f90737f84239b4"
+  integrity sha512-6NJ/pCnhCnBMzaty1opWo7ipDmFAIk8U71JMQGKJxblCUaGfdsbF2shf6XNZSkXYia1yS0vwKu9LIOzpXqQZCA==
+  dependencies:
+    async-each-series "0.1.1"
+    connect-history-api-fallback "^1"
+    immutable "^3"
+    server-destroy "1.0.1"
+    socket.io-client "^2.0.4"
+    stream-throttle "^0.1.3"
+
+browser-sync@^2.26.12:
+  version "2.26.13"
+  resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.26.13.tgz#a74541c104aec7eda318a5d8abdb3317ae9eda3d"
+  integrity sha512-JPYLTngIzI+Dzx+StSSlMtF+Q9yjdh58HW6bMFqkFXuzQkJL8FCvp4lozlS6BbECZcsM2Gmlgp0uhEjvl18X4w==
+  dependencies:
+    browser-sync-client "^2.26.13"
+    browser-sync-ui "^2.26.13"
+    bs-recipes "1.3.4"
+    bs-snippet-injector "^2.0.1"
+    chokidar "^3.4.1"
+    connect "3.6.6"
+    connect-history-api-fallback "^1"
+    dev-ip "^1.0.1"
+    easy-extender "^2.3.4"
+    eazy-logger "3.1.0"
+    etag "^1.8.1"
+    fresh "^0.5.2"
+    fs-extra "3.0.1"
+    http-proxy "^1.18.1"
+    immutable "^3"
+    localtunnel "^2.0.0"
+    micromatch "^4.0.2"
+    opn "5.3.0"
+    portscanner "2.1.1"
+    qs "6.2.3"
+    raw-body "^2.3.2"
+    resp-modifier "6.0.2"
+    rx "4.1.0"
+    send "0.16.2"
+    serve-index "1.9.1"
+    serve-static "1.13.2"
+    server-destroy "1.0.1"
+    socket.io "2.1.1"
+    ua-parser-js "^0.7.18"
+    yargs "^15.4.1"
 
 browser-sync@^2.26.4:
   version "2.26.12"
@@ -2243,6 +2342,21 @@ chokidar@^3.3.0, chokidar@^3.3.1, chokidar@^3.4.1:
     is-glob "~4.0.1"
     normalize-path "~3.0.0"
     readdirp "~3.4.0"
+  optionalDependencies:
+    fsevents "~2.1.2"
+
+chokidar@^3.4.2:
+  version "3.4.3"
+  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.4.3.tgz#c1df38231448e45ca4ac588e6c79573ba6a57d5b"
+  integrity sha512-DtM3g7juCXQxFVSNPNByEC2+NImtBuxQQvWlHunpJIS5Ocr0lG306cC7FCi7cEA0fzmybPUIl4txBIobk1gGOQ==
+  dependencies:
+    anymatch "~3.1.1"
+    braces "~3.0.2"
+    glob-parent "~5.1.0"
+    is-binary-path "~2.1.0"
+    is-glob "~4.0.1"
+    normalize-path "~3.0.0"
+    readdirp "~3.5.0"
   optionalDependencies:
     fsevents "~2.1.2"
 
@@ -3027,6 +3141,11 @@ dir-glob@^3.0.1:
   dependencies:
     path-type "^4.0.0"
 
+dlv@^1.1.3:
+  version "1.1.3"
+  resolved "https://registry.yarnpkg.com/dlv/-/dlv-1.1.3.tgz#5c198a8a11453596e751494d49874bc7732f2e79"
+  integrity sha512-+HlytyjlPKnIG8XuRG8WvmBP8xs8P71y+SKKS6ZXWoEgLuePxtDoUEiH7WkdePWrQ5JBpE6aoVqfZfJUQkjXwA==
+
 dom-serializer@0:
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/dom-serializer/-/dom-serializer-0.2.2.tgz#1afb81f533717175d478655debc5e332d9f9bb51"
@@ -3117,6 +3236,13 @@ easy-extender@^2.3.4:
   integrity sha512-8cAwm6md1YTiPpOvDULYJL4ZS6WfM5/cTeVVh4JsvyYZAoqlRVUpHL9Gr5Fy7HA6xcSZicUia3DeAgO3Us8E+Q==
   dependencies:
     lodash "^4.17.10"
+
+eazy-logger@3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eazy-logger/-/eazy-logger-3.1.0.tgz#b169eb56df714608fa114f164c8a2956bec9f0f3"
+  integrity sha512-/snsn2JqBtUSSstEl4R0RKjkisGHAhvYj89i7r3ytNUKW12y178KDZwXLXIgwDqLW6E/VRMT9qfld7wvFae8bQ==
+  dependencies:
+    tfunk "^4.0.0"
 
 eazy-logger@^3:
   version "3.0.2"
@@ -6914,6 +7040,13 @@ readdirp@~3.4.0:
   dependencies:
     picomatch "^2.2.1"
 
+readdirp@~3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/readdirp/-/readdirp-3.5.0.tgz#9ba74c019b15d365278d2e91bb8c48d7b4d42c9e"
+  integrity sha512-cMhu7c/8rdhkHXWsY+osBhfSy0JikwpHK/5+imo+LpeasTF8ouErHrlYkwT0++njiyuDvc7OFY5T3ukvZ8qmFQ==
+  dependencies:
+    picomatch "^2.2.1"
+
 readline2@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/readline2/-/readline2-1.0.1.tgz#41059608ffc154757b715d9989d199ffbf372e35"
@@ -8045,6 +8178,14 @@ tfunk@^3.0.1:
   dependencies:
     chalk "^1.1.1"
     object-path "^0.9.0"
+
+tfunk@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/tfunk/-/tfunk-4.0.0.tgz#de9399feaf2060901d590b7faad80fcd5443077e"
+  integrity sha512-eJQ0dGfDIzWNiFNYFVjJ+Ezl/GmwHaFTBTjrtqNPW0S7cuVDBrZrmzUz6VkMeCR4DZFqhd4YtLwsw3i2wYHswQ==
+  dependencies:
+    chalk "^1.1.3"
+    dlv "^1.1.3"
 
 throat@^3.0.0:
   version "3.2.0"
