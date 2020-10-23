@@ -65,7 +65,8 @@ gulp.task('svg', function () {
     return gulp.src([
         'img/map-marker.svg',
         'img/undraw_server_down_s4lk.svg',
-        'img/undraw_warning_cyit.svg'
+        'img/undraw_warning_cyit.svg',
+        'img/search-by-algolia-light-background.svg'
     ])
         .pipe(svgmin())
         .pipe(gulp.dest('./dist/img'));
