@@ -21,7 +21,7 @@
     "postcss-cli": "^7.1.2",
     "postcss-import": "^12.0.1",
     "postcss-nested": "^4.2.3",
-    "simple-icons": "^3.12.0",
+    "simple-icons": "^3.12.1",
     "simplelightbox": "^2.5.0",
     "tailwindcss": "^1.9.5",
     "tailwindcss-aspect-ratio": "^3.0.0",
