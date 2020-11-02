@@ -8698,10 +8698,10 @@ syntax-error@^1.1.1:
   dependencies:
     acorn-node "^1.2.0"
 
-tailwind-config-viewer@^1.2.3:
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.2.3.tgz#48061d16e678d9df59c117f6a15e1b3ecc773e3b"
-  integrity sha512-9uPQu2POhtPI4oOa57SYcpMbFA3GyiDA2Suw98FqKftwyZyhSFG8zfIDQmYAZKkaiA60kBVtaIoltA4lNMHX+w==
+tailwind-config-viewer@^1.2.4:
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/tailwind-config-viewer/-/tailwind-config-viewer-1.2.4.tgz#1332705090c7c74e5d85682575ec9372d1062093"
+  integrity sha512-Q7Zu5ThX9KV99BeHXI564jCzBf0u9a5ggheTE/ug67KYu3nz4yg/IQoeXYEB4eaQpxHPIF1sb2vqIbPmvYvIQA==
   dependencies:
     "@koa/router" "^9.0.1"
     commander "^6.0.0"
