@@ -105,6 +105,7 @@ gulp.task('icons', function() {
         'node_modules/heroicons/solid/camera.svg',
         'node_modules/heroicons/solid/download.svg',
         'node_modules/heroicons/solid/mail.svg',
+        'node_modules/heroicons/solid/music-note.svg',
         'node_modules/heroicons/solid/home.svg',
         'node_modules/heroicons/solid/external-link.svg',
         'node_modules/heroicons/solid/newspaper.svg',
