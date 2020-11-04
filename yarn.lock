@@ -43,6 +43,26 @@
     mixwith "^0.1.1"
     readable-stream "^2.1.4"
 
+"@frctl/core@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.0.tgz#0b4c2997f748c27082e788b97b3834eb36d140f7"
+  integrity sha512-BgVLeHt8Kkk0CFWk7ZpiOTtZkPlT6/eHtoGMV95qdMvQvS+5XjqDwx26LveS5Bffmt+uQNl4XtkHGIPY6g2r9g==
+  dependencies:
+    "@allmarkedup/fang" "^1.0.0"
+    anymatch "^2.0.0"
+    bluebird "^3.5.2"
+    chokidar "^3.4.2"
+    co "^4.6.0"
+    globby "^6.0.0"
+    highlight.js "^9.5.0"
+    istextorbinary "^3.3.0"
+    js-yaml "^3.13.1"
+    lodash "^4.17.11"
+    marked "^0.7.0"
+    minimist "^1.2.2"
+    mixwith "^0.1.1"
+    readable-stream "^2.1.4"
+
 "@frctl/fractal@^1.3.0":
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.4.1.tgz#50d7ff97cc08d025489df14bade4db7defe9ac24"
@@ -85,13 +105,13 @@
     lodash "^4.17.11"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.5.1.tgz#61adeb99eb228aa69dcf68449f12e1da574031a1"
-  integrity sha512-kg3ItjVD6DwpTdmmxicCAZ+1JDldAIoI/HpIkahR6Byzowup5FRculzLbrhtqE2QMQTuP1aawxkxUNxGv/kfnw==
+"@frctl/mandelbrot@^1.5.1", "@frctl/mandelbrot@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.6.0.tgz#927ab29cafc6ebfdb4c13e9147831d9f71bf04e1"
+  integrity sha512-825PM0HSZkcnHJxpF+arPYYuxiLM+NVbwVMmx7SY01S80I/aHffG5GEDvBYw6RJm127e0biSyooz97N/tDHwLw==
   dependencies:
-    "@frctl/web" "^0.1.1"
-    js-beautify "^1.6.2"
+    "@frctl/web" "^0.1.2"
+    js-beautify "^1.13.0"
     lodash "^4.17.11"
 
 "@frctl/twig@^1.2.0":
@@ -103,15 +123,15 @@
     lodash "^4.17.11"
     twig "^1.14.0"
 
-"@frctl/web@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.1.tgz#7152fde305aad5c752edbac714aca5cf8891f8d3"
-  integrity sha512-QGiDE/fgWVFkfLWd05T1ftNnzZlmLo/rCdHXcXrsKpYriWol6YZzJkvDQ+RnFJpoP+YcnR/m1+zPM+ejZlD7Rg==
+"@frctl/web@^0.1.1", "@frctl/web@^0.1.2":
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.2.tgz#a017fddc14d2399ce3c494d5f29ea3d31ecd3d01"
+  integrity sha512-urPJ+QFgHn63Y6B2DZ9yWLjme8sd52OUiXuVw6k51SeqlFmj64wWTp8iYJlNzG2mBXAts2o5hD+AqGBiBhCRkg==
   dependencies:
-    "@frctl/core" "^0.1.1"
+    "@frctl/core" "^0.2.0"
     anymatch "^2.0.0"
     bluebird "^3.5.2"
-    browser-sync "^2.26.12"
+    browser-sync "^2.26.13"
     chokidar "^3.4.2"
     express "^4.14.0"
     fs-extra "^9.0.0"
@@ -2110,7 +2130,7 @@ browser-sync-ui@^2.26.13:
     socket.io-client "^2.0.4"
     stream-throttle "^0.1.3"
 
-browser-sync@^2.26.12:
+browser-sync@^2.26.13:
   version "2.26.13"
   resolved "https://registry.yarnpkg.com/browser-sync/-/browser-sync-2.26.13.tgz#a74541c104aec7eda318a5d8abdb3317ae9eda3d"
   integrity sha512-JPYLTngIzI+Dzx+StSSlMtF+Q9yjdh58HW6bMFqkFXuzQkJL8FCvp4lozlS6BbECZcsM2Gmlgp0uhEjvl18X4w==
@@ -5498,7 +5518,7 @@ istextorbinary@^3.3.0:
     binaryextensions "^2.2.0"
     textextensions "^3.2.0"
 
-js-beautify@^1.6.2:
+js-beautify@^1.13.0:
   version "1.13.0"
   resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.13.0.tgz#a056d5d3acfd4918549aae3ab039f9f3c51eebb2"
   integrity sha512-/Tbp1OVzZjbwzwJQFIlYLm9eWQ+3aYbBXLSaqb1mEJzhcQAfrqMMQYtjb6io+U6KpD0ID4F+Id3/xcjH3l/sqA==
