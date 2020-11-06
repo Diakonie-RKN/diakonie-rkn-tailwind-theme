@@ -23,26 +23,6 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.1.1.tgz#db135712da098d594a6c108c69c6635fff81f840"
-  integrity sha512-FG5DZwH9xlqNqB73qLgMiB5qAKBBg27hqZ0JkaG29pNqXMDjQ83DULjM7sG2ToEJ++bVhf/Bkd+NANCDs1KXRg==
-  dependencies:
-    "@allmarkedup/fang" "^1.0.0"
-    anymatch "^2.0.0"
-    bluebird "^3.5.2"
-    chokidar "^3.4.2"
-    co "^4.6.0"
-    globby "^6.0.0"
-    highlight.js "^9.5.0"
-    istextorbinary "^3.3.0"
-    js-yaml "^3.13.1"
-    lodash "^4.17.11"
-    marked "^0.7.0"
-    minimist "^1.2.2"
-    mixwith "^0.1.1"
-    readable-stream "^2.1.4"
-
 "@frctl/core@^0.2.0":
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.0.tgz#0b4c2997f748c27082e788b97b3834eb36d140f7"
@@ -114,12 +94,12 @@
     js-beautify "^1.13.0"
     lodash "^4.17.11"
 
-"@frctl/twig@^1.2.0":
-  version "1.2.2"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.2.tgz#96dfa2a8965f7149204e02d25c03b68512a69811"
-  integrity sha512-7VsTVdJkCnYoGvVcow2vXy6N1mvUqemML2NbAn3l5YJEXTUwJUpEu8OBZa7Sr/d+HYH0ZL/Dmhy7C6DhyFAKNA==
+"@frctl/twig@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.3.tgz#b178cec79a93e875d39fc8e39d88e07edfe8b35c"
+  integrity sha512-5zj3SRm37dX/Aj0OcX6G1xBermcvcz5LSmmEgM/2d/MmCLO5zpbs7Wm7v3A79KDLeLx0wK/sLSTvuNH9xLLEXA==
   dependencies:
-    "@frctl/core" "^0.1.1"
+    "@frctl/core" "^0.2.0"
     lodash "^4.17.11"
     twig "^1.14.0"
 
