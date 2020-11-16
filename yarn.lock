@@ -43,13 +43,13 @@
     mixwith "^0.1.1"
     readable-stream "^2.1.4"
 
-"@frctl/fractal@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.0.tgz#9f206f788952b450b6920c922b75b1234fe32761"
-  integrity sha512-IGYUNkkZeKok6Xnnkvgm29wKRWFTdIHDmNghbrCrVLLQturnhVtMoTu/91bV3EGyNJvpGv4yjvZFHon/w42J5Q==
+"@frctl/fractal@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.1.tgz#0e717b6187bd6db7a7a8ac2962f0b3ae5e19c1be"
+  integrity sha512-dVcsqRxVDOGLKt1VsqLGQ+AlRMQfH94voUTHAJz6HfO1Zi8+JlM8ncenjix7Tn4QrkWiXcBqWyUVZvVhrNOrbw==
   dependencies:
     "@frctl/core" "^0.2.0"
-    "@frctl/handlebars" "^1.2.3"
+    "@frctl/handlebars" "^1.2.4"
     "@frctl/mandelbrot" "^1.6.0"
     "@frctl/web" "^0.1.2"
     anymatch "^2.0.0"
@@ -74,10 +74,10 @@
     vinyl "^1.2.0"
     vorpal "^1.12.0"
 
-"@frctl/handlebars@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.3.tgz#8dc2c222d4e486391772b36e301807d1b9111849"
-  integrity sha512-d/qCAQ0Nd8L6dPG1dm0RJs3PtmJ4NXJvKrDLVZ6p/XS5YHPgITtn1/Z+Bf6fBkOboRNyCB2tjbyEZWJWw97x4A==
+"@frctl/handlebars@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.4.tgz#ac6c5ede0650256e5c7810802127befe196af05d"
+  integrity sha512-DkODNJSoraylERQOIojjGkOCaA5GkXGY807ZIDmlXxNaOaI9J3uxhYy5EvVTzK/loBygKqK/1iPcsCU58rZOZw==
   dependencies:
     "@frctl/core" "^0.2.0"
     bluebird "^3.5.2"
