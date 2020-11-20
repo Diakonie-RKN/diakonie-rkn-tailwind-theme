@@ -8191,10 +8191,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-simplelightbox@^2.6.0:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.6.0.tgz#e41584096d1b0e8c279f886c4abe5bb1807af88c"
-  integrity sha512-rAMxnGh+U3Vgg4njIF17JRAyDrPIL+Z8/EVJwwpPF60rsm76+WV1ycnehY1qnFoFfneTyZuUmTBF2CCstyJkgQ==
+simplelightbox@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.7.0.tgz#3360231da6e0ab49082c80de5f195e57ccb68d2f"
+  integrity sha512-vZNA5eGlHLWcy0y1yDc/fpH8kFG+4t6/g4EjGP4nwx9s+aFzJOIK87OVQiaZyALsYRP4Spfaed7UpQgCYw3pAA==
   dependencies:
     browserify "^17.0.0"
     core-js "^3.6.5"
