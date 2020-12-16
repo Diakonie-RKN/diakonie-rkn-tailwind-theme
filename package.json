@@ -12,7 +12,7 @@
     "@tailwindcss/custom-forms": "^0.2.1",
     "@tailwindcss/typography": "^0.2.0",
     "@turf/turf": "^5.1.6",
-    "alpinejs": "^2.7.3",
+    "alpinejs": "^2.8.0",
     "autoprefixer": "^9.8.6",
     "hc-sticky": "^2.2.6",
     "heroicons": "^0.4.2",
