@@ -23,7 +23,7 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.2.0", "@frctl/core@^0.2.1":
+"@frctl/core@^0.2.1":
   version "0.2.1"
   resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.1.tgz#ec70036394cb1323ca713abf746bdf7e67668011"
   integrity sha512-5Y9XwszDHcx409lLpE2n5OC/h0HpUquiWA7jGBIZ2caYOrv8StxtVCBX6WB/nGfEYRQeOV8PZAqcGU5clV6IOg==
@@ -94,14 +94,14 @@
     js-beautify "^1.13.0"
     lodash "^4.17.11"
 
-"@frctl/twig@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.3.tgz#b178cec79a93e875d39fc8e39d88e07edfe8b35c"
-  integrity sha512-5zj3SRm37dX/Aj0OcX6G1xBermcvcz5LSmmEgM/2d/MmCLO5zpbs7Wm7v3A79KDLeLx0wK/sLSTvuNH9xLLEXA==
+"@frctl/twig@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.4.tgz#b03bbb5db52cb604c145c8685d9fbaa944c8c74e"
+  integrity sha512-Fzx34i5PXphFYhftOi8kzwOKNV9Cg4qTAjpEyYN4DKq7AzWhowKW8t5HdTKmzQLAbhyy8XyBWaeK9cWHdVfCrA==
   dependencies:
-    "@frctl/core" "^0.2.0"
+    "@frctl/core" "^0.2.1"
     lodash "^4.17.11"
-    twig "^1.14.0"
+    twig "^1.15.4"
 
 "@frctl/web@^0.1.3":
   version "0.1.3"
@@ -8979,10 +8979,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
   integrity sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
 
-twig@^1.14.0:
-  version "1.15.2"
-  resolved "https://registry.yarnpkg.com/twig/-/twig-1.15.2.tgz#8600182f9cf12cfd5f5b365146c5b9914bfa1c10"
-  integrity sha512-n7w76E8gzguhcLyKcjlT3sYWGdBTgZY2DO/frcbZ5Fk7LwMRoTathvWMFxZyJ2HYRJ+rEzccw6nu3fsy7ceGGQ==
+twig@^1.15.4:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/twig/-/twig-1.15.4.tgz#314b00eaf98a57e70ed7dcfd6def93d0d8f3d627"
+  integrity sha512-gRpGrpdf+MswqF6eSjEdYZTa/jt3ZWHK/NU59IbTYJMBQXJ1W+7IxaGEwLkQjd+mNT15j9sQTzQumxUBkuQueQ==
   dependencies:
     "@babel/runtime" "^7.8.4"
     locutus "^2.0.11"
