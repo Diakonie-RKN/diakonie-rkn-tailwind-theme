@@ -18,9 +18,9 @@
     }
 </style>
 
-<link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.6.0" type="text/css">
+<link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.7.0" type="text/css">
 
-<link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.6.0" type="text/css">
+<link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.7.0" type="text/css">
 
 
 <title>Page Header: With Image | Diakonie Rhein-Kreis Neuss Component Library</title>
@@ -80,6 +80,9 @@
 
         </a>
     </h1>
+
+    <span class="Pen-preview-size" data-role="preview-size"></span>
+
     
 
 <div class="Status Status--tag">
@@ -173,12 +176,12 @@
 <div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-63f684b7ca89aba68e4efc99f2698876-panel-html">
     <code class="Code Code--lang-html hljs">
         
-        <pre><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex flex-col md:flex-row"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"md:w-2/5 dw-tile bg-dw-area-2 flex items-center print:text-dw-violet"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"leading-tight"</span>&gt;</span>This is a headline for a Page<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;flex flex-col md:flex-row&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:w-2/5 dw-tile bg-dw-area-2 flex items-center print:text-dw-violet&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;leading-tight&quot;</span>&gt;</span>This is a headline for a Page<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-1"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;fm=jpg&amp;fit=crop&amp;w=960&amp;h=450"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"960"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"450"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"This is a headline for a Page"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"h-full w-full object-cover"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;flex-1&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;fm=jpg&amp;fit=crop&amp;w=960&amp;h=450&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;960&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;450&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;This is a headline for a Page&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;h-full w-full object-cover&quot;</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></pre>
         
@@ -188,12 +191,12 @@
     
     <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-63f684b7ca89aba68e4efc99f2698876-panel-view">
     <code class="Code Code--lang-twig hljs">
-        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex flex-col md:flex-row"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"md:w-2/5 dw-tile bg-dw-area-2 flex items-center print:text-dw-violet"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"leading-tight"</span>&gt;</span></span><span class="hljs-template-variable">{{ title }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;flex flex-col md:flex-row&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;md:w-2/5 dw-tile bg-dw-area-2 flex items-center print:text-dw-violet&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;leading-tight&quot;</span>&gt;</span></span><span class="hljs-template-variable">{{ title }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"flex-1"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;fm=jpg&amp;fit=crop&amp;w=960&amp;h=450"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"960"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"450"</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">"</span></span></span><span class="hljs-template-variable">{{ title }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"h-full w-full object-cover"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;flex-1&quot;</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">src</span>=<span class="hljs-string">&quot;https://images.unsplash.com/photo-1543333995-a78aea2eee50?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;fm=jpg&amp;fit=crop&amp;w=960&amp;h=450&quot;</span> <span class="hljs-attr">width</span>=<span class="hljs-string">&quot;960&quot;</span> <span class="hljs-attr">height</span>=<span class="hljs-string">&quot;450&quot;</span> <span class="hljs-attr">alt</span>=<span class="hljs-string">&quot;</span></span></span><span class="hljs-template-variable">{{ title }}</span><span class="xml"><span class="hljs-tag"><span class="hljs-string">&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;h-full w-full object-cover&quot;</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></pre>
     </code>
@@ -205,7 +208,7 @@
         
             
             <pre>{
-  <span class="hljs-attr">"title"</span>: <span class="hljs-string">"This is a headline for a Page"</span>
+  <span class="hljs-attr">&quot;title&quot;</span>: <span class="hljs-string">&quot;This is a headline for a Page&quot;</span>
 }</pre>
             
         
@@ -891,8 +894,8 @@
                     <dt class="Tree-asideTerm">Built on:</dt>
                     <dd class="Tree-asideDescription">
                         
-                            <time datetime="2020-12-28T07:56:41.367Z">
-                                12/28/2020
+                            <time datetime="2020-12-30T11:29:04.939Z">
+                                12/30/2020
                             </time>
                         
                     </dd>
@@ -913,7 +916,7 @@
 
 
 
-<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.6.0"></script>
+<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.7.0"></script>
 
 
 

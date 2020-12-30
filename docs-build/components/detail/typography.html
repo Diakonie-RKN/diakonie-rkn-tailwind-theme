@@ -18,9 +18,9 @@
     }
 </style>
 
-<link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.6.0" type="text/css">
+<link rel="stylesheet" href="../../themes/mandelbrot/css/white.css?cachebust=1.7.0" type="text/css">
 
-<link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.6.0" type="text/css">
+<link rel="stylesheet" href="../../themes/mandelbrot/css/highlight.css?cachebust=1.7.0" type="text/css">
 
 
 <title>Typography | Diakonie Rhein-Kreis Neuss Component Library</title>
@@ -80,6 +80,9 @@
 
         </a>
     </h1>
+
+    <span class="Pen-preview-size" data-role="preview-size"></span>
+
     
 
 <div class="Status Status--tag">
@@ -175,9 +178,9 @@
 <div class="Browser-panel Browser-code is-active" data-role="tab-panel" id="browser-c605eab8710a1f3f6b1c4a661eadbb7b-panel-html">
     <code class="Code Code--lang-html hljs">
         
-        <pre><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-center mb-12"</span>&gt;</span>Typography is nice<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"prose prose-lg mx-auto"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"lead"</span>&gt;</span>Until now, trying to style an article, document, or blog post with Tailwind has been a tedious
+        <pre><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-center mb-12&quot;</span>&gt;</span>Typography is nice<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;prose prose-lg mx-auto&quot;</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lead&quot;</span>&gt;</span>Until now, trying to style an article, document, or blog post with Tailwind has been a tedious
         task that required a keen eye for typography and a lot of complex custom CSS.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs
         because you spend less time undoing user-agent styles, but when you <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>really are<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> just trying to style some content that came from a rich-text editor in a CMS or a
@@ -240,10 +243,10 @@
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Code should look okay by default.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I think most people are going to use <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://highlightjs.org/"</span>&gt;</span>highlight.js<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://prismjs.com/"</span>&gt;</span>Prism<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or something if they want to style their
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I think most people are going to use <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://highlightjs.org/&quot;</span>&gt;</span>highlight.js<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://prismjs.com/&quot;</span>&gt;</span>Prism<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or something if they want to style their
         code blocks but it wouldn<span class="hljs-symbol">&amp;#x27;</span>t hurt to make them look <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>okay<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> out of the box, even with no syntax highlighting.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Here<span class="hljs-symbol">&amp;#x27;</span>s what a default <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwind.config.js<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> file looks like at the time of writing:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"language-js"</span>&gt;</span>module.exports = {
+    <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;language-js&quot;</span>&gt;</span>module.exports = {
   purge: [],
   theme: {
     extend: {},
@@ -309,7 +312,7 @@
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>And finally a sentence to close off this section.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>There are other elements we need to style<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I almost forgot to mention links, like <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://tailwindcss.com"</span>&gt;</span>this link to the Tailwind CSS website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>. We almost made them blue but that<span class="hljs-symbol">&amp;#x27;</span>s so yesterday, so
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I almost forgot to mention links, like <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://tailwindcss.com&quot;</span>&gt;</span>this link to the Tailwind CSS website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>. We almost made them blue but that<span class="hljs-symbol">&amp;#x27;</span>s so yesterday, so
         we went with dark gray, feels edgier.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>We even included table styles, check it out:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
@@ -353,7 +356,7 @@
     <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span>Sometimes I even use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>code<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> in headings<span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Even though it<span class="hljs-symbol">&amp;#x27;</span>s probably a bad idea, and historically I<span class="hljs-symbol">&amp;#x27;</span>ve had a hard time making it look good. This <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>wrap the code blocks in backticks<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> trick
         works pretty well though really.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Another thing I<span class="hljs-symbol">&amp;#x27;</span>ve done in the past is put a <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>code<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> tag inside of a link, like if I wanted to tell you about the <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://github.com/tailwindcss/docs"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwindcss/docs<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> repository. I don<span class="hljs-symbol">&amp;#x27;</span>t love that there is an underline below the backticks but it is
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Another thing I<span class="hljs-symbol">&amp;#x27;</span>ve done in the past is put a <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>code<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> tag inside of a link, like if I wanted to tell you about the <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://github.com/tailwindcss/docs&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwindcss/docs<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> repository. I don<span class="hljs-symbol">&amp;#x27;</span>t love that there is an underline below the backticks but it is
         absolutely not worth the madness it would require to avoid it.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>We haven<span class="hljs-symbol">&amp;#x27;</span>t used an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h4<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> yet<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>But now we have. Please don<span class="hljs-symbol">&amp;#x27;</span>t use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h5<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h6<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> in your content, Medium only supports two heading levels for a reason, you animals. I honestly
@@ -374,8 +377,8 @@
     
     <div class="Browser-panel Browser-code" data-role="tab-panel" id="browser-c605eab8710a1f3f6b1c4a661eadbb7b-panel-view">
     <code class="Code Code--lang-twig hljs">
-        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"text-center mb-12"</span>&gt;</span>Typography is nice<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"prose prose-lg mx-auto"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"lead"</span>&gt;</span>Until now, trying to style an article, document, or blog post with Tailwind has been a tedious
+        <pre><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">h1</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;text-center mb-12&quot;</span>&gt;</span>Typography is nice<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;prose prose-lg mx-auto&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;lead&quot;</span>&gt;</span>Until now, trying to style an article, document, or blog post with Tailwind has been a tedious
         task that required a keen eye for typography and a lot of complex custom CSS.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>By default, Tailwind removes all of the default browser styling from paragraphs, headings, lists and more. This ends up being really useful for building application UIs
         because you spend less time undoing user-agent styles, but when you <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>really are<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> just trying to style some content that came from a rich-text editor in a CMS or a
@@ -428,10 +431,10 @@
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>After this sort of list I usually have a closing statement or paragraph, because it kinda looks weird jumping right to a heading.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Code should look okay by default.<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I think most people are going to use <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://highlightjs.org/"</span>&gt;</span>highlight.js<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://prismjs.com/"</span>&gt;</span>Prism<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or something if they want to style their
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I think most people are going to use <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://highlightjs.org/&quot;</span>&gt;</span>highlight.js<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://prismjs.com/&quot;</span>&gt;</span>Prism<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> or something if they want to style their
         code blocks but it wouldn<span class="hljs-symbol">&amp;#x27;</span>t hurt to make them look <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span>okay<span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> out of the box, even with no syntax highlighting.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Here<span class="hljs-symbol">&amp;#x27;</span>s what a default <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwind.config.js<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> file looks like at the time of writing:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"language-js"</span>&gt;</span>module.exports = {
+    <span class="hljs-tag">&lt;<span class="hljs-name">pre</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;language-js&quot;</span>&gt;</span>module.exports = {
   purge: [],
   theme: {
     extend: {},
@@ -489,7 +492,7 @@
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>And finally a sentence to close off this section.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>There are other elements we need to style<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I almost forgot to mention links, like <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"https://tailwindcss.com"</span>&gt;</span>this link to the Tailwind CSS website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>. We almost made them blue but that<span class="hljs-symbol">&amp;#x27;</span>s so yesterday, so
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>I almost forgot to mention links, like <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://tailwindcss.com&quot;</span>&gt;</span>this link to the Tailwind CSS website<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>. We almost made them blue but that<span class="hljs-symbol">&amp;#x27;</span>s so yesterday, so
         we went with dark gray, feels edgier.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>We even included table styles, check it out:<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">table</span>&gt;</span>
@@ -534,7 +537,7 @@
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Even though it<span class="hljs-symbol">&amp;#x27;</span>s probably a bad idea, and historically I<span class="hljs-symbol">&amp;#x27;</span>ve had a hard time making it look good. This <span class="hljs-tag">&lt;<span class="hljs-name">em</span>&gt;</span><span class="hljs-symbol">&amp;quot;</span>wrap the code blocks in backticks<span class="hljs-symbol">&amp;quot;</span><span class="hljs-tag">&lt;/<span class="hljs-name">em</span>&gt;</span> trick
         works pretty well though really.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Another thing I<span class="hljs-symbol">&amp;#x27;</span>ve done in the past is put a <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>code<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> tag inside of a link, like if I wanted to tell you about the <span class="hljs-tag">&lt;<span class="hljs-name">a</span>
-                <span class="hljs-attr">href</span>=<span class="hljs-string">"https://github.com/tailwindcss/docs"</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwindcss/docs<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> repository. I don<span class="hljs-symbol">&amp;#x27;</span>t love that there is an underline below the backticks but it is
+                <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;https://github.com/tailwindcss/docs&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>tailwindcss/docs<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span> repository. I don<span class="hljs-symbol">&amp;#x27;</span>t love that there is an underline below the backticks but it is
         absolutely not worth the madness it would require to avoid it.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>We haven<span class="hljs-symbol">&amp;#x27;</span>t used an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h4<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> yet<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>But now we have. Please don<span class="hljs-symbol">&amp;#x27;</span>t use <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h5<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h6<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> in your content, Medium only supports two heading levels for a reason, you animals. I honestly
         considered using a <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>before<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> pseudo-element to scream at you if you use an <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h5<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span> or <span class="hljs-tag">&lt;<span class="hljs-name">code</span>&gt;</span>h6<span class="hljs-tag">&lt;/<span class="hljs-name">code</span>&gt;</span>.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
@@ -1225,8 +1228,8 @@
                     <dt class="Tree-asideTerm">Built on:</dt>
                     <dd class="Tree-asideDescription">
                         
-                            <time datetime="2020-12-28T07:56:41.367Z">
-                                12/28/2020
+                            <time datetime="2020-12-30T11:29:04.939Z">
+                                12/30/2020
                             </time>
                         
                     </dd>
@@ -1247,7 +1250,7 @@
 
 
 
-<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.6.0"></script>
+<script src="../../themes/mandelbrot/js/mandelbrot.js?cachebust=1.7.0"></script>
 
 
 
