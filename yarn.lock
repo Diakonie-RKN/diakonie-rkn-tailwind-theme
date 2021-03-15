@@ -8199,10 +8199,10 @@ simple-concat@^1.0.0:
   resolved "https://registry.yarnpkg.com/simple-concat/-/simple-concat-1.0.1.tgz#f46976082ba35c2263f1c8ab5edfe26c41c9552f"
   integrity sha512-cSFtAPtRhljv69IK0hTVZQ+OfE9nePi/rtJmw5UjHeVyVroEqJXP1sFztKUy1qU+xvz3u/sfYJLa947b7nAN2Q==
 
-simple-icons@^4.14.0:
-  version "4.14.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-4.14.0.tgz#c10c0a27a3cdfab728e1d3bee76fb8e0c06a9e5f"
-  integrity sha512-GouOesq1Yjy/AwO2sw5kTn12/6roi18vyb973uSNL3r8lgqfN6khh/AaJdxIpZXzeje9lwPsngGiZdnkl5bjpw==
+simple-icons@^4.15.0:
+  version "4.15.0"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-4.15.0.tgz#0c32403321a363288ee028016d0ba8d0cee673de"
+  integrity sha512-pFtmcsBjnf7J5kR+LFRnB3R4Xobdk5uYV9WVJ5LbBXiHDr+5Ts4kQNpf3VcTjngEnPwCuKlBrF5tXPHeGPfGWA==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
