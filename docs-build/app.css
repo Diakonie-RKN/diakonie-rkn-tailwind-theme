@@ -21931,7 +21931,6 @@ dd {
 }
 
 .sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -50067,7 +50066,6 @@ dd {
   }
 
   .sm\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -78120,7 +78118,6 @@ dd {
   }
 
   .md\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -106173,7 +106170,6 @@ dd {
   }
 
   .lg\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -134226,7 +134222,6 @@ dd {
   }
 
   .xl\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
@@ -162279,7 +162274,6 @@ dd {
   }
 
   .print\:sticky {
-    position: -webkit-sticky;
     position: sticky;
   }
 
