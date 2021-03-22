@@ -23,10 +23,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.3.tgz#ea80f11ce13b75df11fa848dc269dc6725d585b6"
-  integrity sha512-UjWbhVYM313BFb/imT40xPZLH2BdUjcmP3JLJQx8+HueAIy5Xo0XPZAH8xQSFUjosBMezgcBj0jUywwYzosLnA==
+"@frctl/core@^0.2.3", "@frctl/core@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.4.tgz#6550ccb62e95aaed05f37c7b0a3a82285d879296"
+  integrity sha512-mYbbm8Ra3lqz0mRdCVQW+mkIhmCw0x7QNMMBoLf6fpHSwS77efSAhcOwQCLfLkCPLmSFiSsBYE/vSXadwNJiTA==
   dependencies:
     "@allmarkedup/fang" "^2.0.0"
     anymatch "^2.0.0"
@@ -38,7 +38,7 @@
     highlight.js "^10.6.0"
     istextorbinary "^5.12.0"
     js-yaml "^4.0.0"
-    lodash "^4.17.20"
+    lodash "^4.17.21"
     marked "^2.0.0"
     minimist "^1.2.5"
     mixwith "^0.1.1"
@@ -95,13 +95,13 @@
     js-beautify "^1.13.1"
     lodash "^4.17.20"
 
-"@frctl/twig@^1.2.4":
-  version "1.2.6"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.6.tgz#5c3748316d7663e1c7fb0509e68d787c8e4220f3"
-  integrity sha512-WkJ+IjZM3syt5TacMe2/kK+ApONzWMiXJ7PCRqM7KYYvr7iq/NG7CYzwj1o0GhI3HXIv/U2GC3c5RaR991UtMg==
+"@frctl/twig@^1.2.7":
+  version "1.2.7"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.7.tgz#a7e0a3eabffe6793459d3212c846a33a7dc44086"
+  integrity sha512-UHG/6hAebofqM1Malu9Am8B2IGXSUUi/2Ndp60qVemKLV6O4PiRivS+SD7Z25Re9wPsz2GEd/lR1AZFtZbeH0g==
   dependencies:
-    "@frctl/core" "^0.2.3"
-    lodash "^4.17.20"
+    "@frctl/core" "^0.2.4"
+    lodash "^4.17.21"
     twig "^1.15.4"
 
 "@frctl/web@^0.1.5":
@@ -6027,7 +6027,7 @@ lodash@^3.3.1:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-3.10.1.tgz#5bf45e8e49ba4189e17d482789dfd15bd140b7b6"
   integrity sha1-W/Rejkm6QYnhfUgnid/RW9FAt7Y=
 
-lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.5.1:
+lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.19, lodash@^4.17.20, lodash@^4.17.21, lodash@^4.5.1:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
