@@ -23,10 +23,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.2.4.tgz#6550ccb62e95aaed05f37c7b0a3a82285d879296"
-  integrity sha512-mYbbm8Ra3lqz0mRdCVQW+mkIhmCw0x7QNMMBoLf6fpHSwS77efSAhcOwQCLfLkCPLmSFiSsBYE/vSXadwNJiTA==
+"@frctl/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.0.tgz#c433bc0d25fdc15677d89cd43bee28ff35983928"
+  integrity sha512-E0w1LSLXnmSLhrt413hq5rnBbWfpi/1J8vJzPQF+ZHhgQsdyYHSnd/WVpoThU2oyLMbMjJIfANWyEdqLW1gt1g==
   dependencies:
     "@allmarkedup/fang" "^2.0.0"
     anymatch "^2.0.0"
@@ -35,7 +35,7 @@
     co "^4.6.0"
     fs-extra "^9.1.0"
     globby "^11.0.2"
-    highlight.js "^10.6.0"
+    highlight.js "^10.7.1"
     istextorbinary "^5.12.0"
     js-yaml "^4.0.0"
     lodash "^4.17.21"
@@ -45,14 +45,14 @@
     readable-stream "^3.6.0"
 
 "@frctl/fractal@^1.5.2":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.5.tgz#26cd560cbe79c7d8672fa45c24a90be7caa59be6"
-  integrity sha512-GgPNKjko3ayCgzuhCV437LxUb9qujhWNuigHrnx9nDoXSXwYtSTMvBA88C95Qx83IaEBoWAJX+vVCItdFa54Zw==
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.6.tgz#7bfee68bcb79137fcbe2078958efc21c9672760f"
+  integrity sha512-ZqGsimt6qP4d/lVrfNMX8YHu95E23wzCJNIQ0QvgAumswZpy9UArF8zFocK37KFRw55zObDJ1UXv6XBl0wNCDg==
   dependencies:
-    "@frctl/core" "^0.2.4"
-    "@frctl/handlebars" "^1.2.8"
-    "@frctl/mandelbrot" "^1.8.2"
-    "@frctl/web" "^0.1.6"
+    "@frctl/core" "^0.3.0"
+    "@frctl/handlebars" "^1.2.9"
+    "@frctl/mandelbrot" "^1.9.0"
+    "@frctl/web" "^0.1.7"
     anymatch "^2.0.0"
     bluebird "^3.7.2"
     chalk "^4.1.0"
@@ -75,41 +75,41 @@
     vinyl "^2.2.1"
     vorpal "^1.12.0"
 
-"@frctl/handlebars@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.8.tgz#3fd0d23d2b0df84c7c4e29f0621eef2addd801ee"
-  integrity sha512-MxyBjEMgSuuia4svylfmBjlJKIGx69kiTxtjun/9mnLrwOq81ZmPd0ye50q8EkSm+umY0JtjBElN9xGRCBorvQ==
+"@frctl/handlebars@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.9.tgz#d3494abe9bcce064800b2a0334a146658796dc7f"
+  integrity sha512-WAJqJuUGrpr94FDHzcG2S885wPTWVuVvS6hz2S+Ixw4LGhVtuOgwzuN6ijSK6KEonLoKIok//SUgv24Phh1n+w==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     bluebird "^3.7.2"
     handlebars "^4.7.7"
     lodash "^4.17.21"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.8.2.tgz#4bf57fb896efd5d812eb598fc460a0cc3dffe870"
-  integrity sha512-tJLokyy85YSkgO+Lg0NoxQFEAnpo8SnRvDGtmXEyANDwfNM1oSb+XO33hJ4dZgk4PIHwX+GJg0564nxfgxKKmg==
+"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.0.tgz#4f0e55a0f58bb175a6f0382db073f664b5ab10da"
+  integrity sha512-U0R0q95fFdwuLKuKTXuaAWESZdBjCvWZRRb37DrM0RyjZdiD39PRwsTaXw9KBWFlQ9H7J/htpuyIYJo3BThKJQ==
   dependencies:
-    "@frctl/web" "^0.1.6"
+    "@frctl/web" "^0.1.7"
     js-beautify "^1.13.1"
     lodash "^4.17.21"
 
 "@frctl/twig@^1.2.4":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.7.tgz#a7e0a3eabffe6793459d3212c846a33a7dc44086"
-  integrity sha512-UHG/6hAebofqM1Malu9Am8B2IGXSUUi/2Ndp60qVemKLV6O4PiRivS+SD7Z25Re9wPsz2GEd/lR1AZFtZbeH0g==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.8.tgz#6e78985623fc313ffa435361ea2a95afe0805855"
+  integrity sha512-C7ZNXmojoBMPWMLYOM983nPdDLxLMHy4x/UaG7bksv3aozXRNGwQ2pF/w0sFscV89Y0BILD9qL6feeBYfx4cUA==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     lodash "^4.17.21"
     twig "^1.15.4"
 
-"@frctl/web@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.6.tgz#d071edb489e75f4598d5ebafa2225cc6d4340e29"
-  integrity sha512-N119MVddvvkgvV6MMO35+/VaVJ+7ufnASkrkfs/CvD2fchYqYLYuZrTaXIFaR1/418kA/+EfUGgXlwI13YNi7Q==
+"@frctl/web@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.7.tgz#3942d5cdea0ddd0b8ed8116a0b036b8d8ec113a5"
+  integrity sha512-df3xGVewZM8sZP1liDII4pY1AVmZAF2KvXu9Fpb/2FfaUm5OnbDdNWEiGRItRHMMCfCzoOm7S2aO+VJMyml0TQ==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     anymatch "^2.0.0"
     bluebird "^3.7.2"
     browser-sync "^2.26.14"
@@ -1460,9 +1460,9 @@ ajv@^6.12.3:
     uri-js "^4.2.2"
 
 alpinejs@^2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-2.8.1.tgz#22703776639b0b2f68d619856907de9fbbd727be"
-  integrity sha512-ETJ/k0fbiBeP+OSd5Fhj70c+zb+YRzcVbyh5DVeLT3FBWMUeUvjOSWLi53IVLPSehaT2SKmB7w08WGF2jYTqNA==
+  version "2.8.2"
+  resolved "https://registry.yarnpkg.com/alpinejs/-/alpinejs-2.8.2.tgz#b14ec21ae3cd78dcee4aed0a78ed0f01b676dac4"
+  integrity sha512-5yOUtckn4CBp0qsHpo2qgjZyZit84uXvHbB7NJ27sn4FA6UlFl2i9PGUAdTXkcbFvvxDJBM+zpOD8RuNYFvQAw==
 
 ansi-align@^3.0.0:
   version "3.0.0"
@@ -3538,9 +3538,9 @@ ee-first@1.1.1:
   integrity sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
 
 electron-to-chromium@^1.3.649:
-  version "1.3.695"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.695.tgz#955f419cf99137226180cc4cca2e59015a4e248d"
-  integrity sha512-lz66RliUqLHU1Ojxx1A4QUxKydjiQ79Y4dZyPobs2Dmxj5aVL2TM3KoQ2Gs7HS703Bfny+ukI3KOxwAB0xceHQ==
+  version "1.3.698"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.698.tgz#5de813960f23581a268718a0058683dffa15d221"
+  integrity sha512-VEXDzYblnlT+g8Q3gedwzgKOso1evkeJzV8lih7lV8mL8eAnGVnKyC3KsFT6S+R5PQO4ffdr1PI16/ElibY/kQ==
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4767,7 +4767,7 @@ heroicons@^0.4.2:
   resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-0.4.2.tgz#edaffde42d14bffdd456f0566fd9b8e295ad69e2"
   integrity sha512-24Bc6LKmamKHzGiNC80/r9v/7pQrma2V5KlaLUHGoarqm+hggmxnngU+RjHQT8sANWPa5FWKLftn4fpmvry/7w==
 
-highlight.js@^10.6.0:
+highlight.js@^10.7.1:
   version "10.7.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.1.tgz#a8ec4152db24ea630c90927d6cae2a45f8ecb955"
   integrity sha512-S6G97tHGqJ/U8DsXcEdnACbirtbx58Bx9CzIVeYli8OuswCfYI/LsXH2EiGcoGio1KAC3x4mmUwulOllJ2ZyRA==
@@ -9098,9 +9098,9 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 ua-parser-js@^0.7.18:
-  version "0.7.24"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.24.tgz#8d3ecea46ed4f1f1d63ec25f17d8568105dc027c"
-  integrity sha512-yo+miGzQx5gakzVK3QFfN0/L9uVhosXBBO7qmnk7c2iw1IhL212wfA3zbnI54B0obGwC/5NWub/iT9sReMx+Fw==
+  version "0.7.25"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.25.tgz#67689fa263a87a52dabbc251ede89891f59156ce"
+  integrity sha512-8NFExdfI24Ny8R3Vc6+uUytP/I7dpqk3JERlvxPWlrtx5YboqCgxAXYKPAifbPLV2zKbgmmPL53ufW7mUC/VOQ==
 
 uglify-js@^3.0.5, uglify-js@^3.1.4:
   version "3.13.2"
