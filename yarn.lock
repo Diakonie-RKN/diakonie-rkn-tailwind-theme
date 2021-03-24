@@ -44,6 +44,27 @@
     mixwith "^0.1.1"
     readable-stream "^3.6.0"
 
+"@frctl/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.0.tgz#c433bc0d25fdc15677d89cd43bee28ff35983928"
+  integrity sha512-E0w1LSLXnmSLhrt413hq5rnBbWfpi/1J8vJzPQF+ZHhgQsdyYHSnd/WVpoThU2oyLMbMjJIfANWyEdqLW1gt1g==
+  dependencies:
+    "@allmarkedup/fang" "^2.0.0"
+    anymatch "^2.0.0"
+    bluebird "^3.7.2"
+    chokidar "^3.5.1"
+    co "^4.6.0"
+    fs-extra "^9.1.0"
+    globby "^11.0.2"
+    highlight.js "^10.7.1"
+    istextorbinary "^5.12.0"
+    js-yaml "^4.0.0"
+    lodash "^4.17.21"
+    marked "^2.0.0"
+    minimist "^1.2.5"
+    mixwith "^0.1.1"
+    readable-stream "^3.6.0"
+
 "@frctl/fractal@^1.5.2":
   version "1.5.5"
   resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.5.tgz#26cd560cbe79c7d8672fa45c24a90be7caa59be6"
@@ -95,12 +116,12 @@
     js-beautify "^1.13.1"
     lodash "^4.17.21"
 
-"@frctl/twig@^1.2.4":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.7.tgz#a7e0a3eabffe6793459d3212c846a33a7dc44086"
-  integrity sha512-UHG/6hAebofqM1Malu9Am8B2IGXSUUi/2Ndp60qVemKLV6O4PiRivS+SD7Z25Re9wPsz2GEd/lR1AZFtZbeH0g==
+"@frctl/twig@^1.2.8":
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.8.tgz#6e78985623fc313ffa435361ea2a95afe0805855"
+  integrity sha512-C7ZNXmojoBMPWMLYOM983nPdDLxLMHy4x/UaG7bksv3aozXRNGwQ2pF/w0sFscV89Y0BILD9qL6feeBYfx4cUA==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     lodash "^4.17.21"
     twig "^1.15.4"
 
@@ -4767,7 +4788,7 @@ heroicons@^0.4.2:
   resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-0.4.2.tgz#edaffde42d14bffdd456f0566fd9b8e295ad69e2"
   integrity sha512-24Bc6LKmamKHzGiNC80/r9v/7pQrma2V5KlaLUHGoarqm+hggmxnngU+RjHQT8sANWPa5FWKLftn4fpmvry/7w==
 
-highlight.js@^10.6.0:
+highlight.js@^10.6.0, highlight.js@^10.7.1:
   version "10.7.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.1.tgz#a8ec4152db24ea630c90927d6cae2a45f8ecb955"
   integrity sha512-S6G97tHGqJ/U8DsXcEdnACbirtbx58Bx9CzIVeYli8OuswCfYI/LsXH2EiGcoGio1KAC3x4mmUwulOllJ2ZyRA==
