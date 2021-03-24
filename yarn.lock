@@ -44,15 +44,36 @@
     mixwith "^0.1.1"
     readable-stream "^3.6.0"
 
-"@frctl/fractal@^1.5.2":
-  version "1.5.5"
-  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.5.tgz#26cd560cbe79c7d8672fa45c24a90be7caa59be6"
-  integrity sha512-GgPNKjko3ayCgzuhCV437LxUb9qujhWNuigHrnx9nDoXSXwYtSTMvBA88C95Qx83IaEBoWAJX+vVCItdFa54Zw==
+"@frctl/core@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.0.tgz#c433bc0d25fdc15677d89cd43bee28ff35983928"
+  integrity sha512-E0w1LSLXnmSLhrt413hq5rnBbWfpi/1J8vJzPQF+ZHhgQsdyYHSnd/WVpoThU2oyLMbMjJIfANWyEdqLW1gt1g==
   dependencies:
-    "@frctl/core" "^0.2.4"
-    "@frctl/handlebars" "^1.2.8"
-    "@frctl/mandelbrot" "^1.8.2"
-    "@frctl/web" "^0.1.6"
+    "@allmarkedup/fang" "^2.0.0"
+    anymatch "^2.0.0"
+    bluebird "^3.7.2"
+    chokidar "^3.5.1"
+    co "^4.6.0"
+    fs-extra "^9.1.0"
+    globby "^11.0.2"
+    highlight.js "^10.7.1"
+    istextorbinary "^5.12.0"
+    js-yaml "^4.0.0"
+    lodash "^4.17.21"
+    marked "^2.0.0"
+    minimist "^1.2.5"
+    mixwith "^0.1.1"
+    readable-stream "^3.6.0"
+
+"@frctl/fractal@^1.5.6":
+  version "1.5.6"
+  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.6.tgz#7bfee68bcb79137fcbe2078958efc21c9672760f"
+  integrity sha512-ZqGsimt6qP4d/lVrfNMX8YHu95E23wzCJNIQ0QvgAumswZpy9UArF8zFocK37KFRw55zObDJ1UXv6XBl0wNCDg==
+  dependencies:
+    "@frctl/core" "^0.3.0"
+    "@frctl/handlebars" "^1.2.9"
+    "@frctl/mandelbrot" "^1.9.0"
+    "@frctl/web" "^0.1.7"
     anymatch "^2.0.0"
     bluebird "^3.7.2"
     chalk "^4.1.0"
@@ -75,23 +96,23 @@
     vinyl "^2.2.1"
     vorpal "^1.12.0"
 
-"@frctl/handlebars@^1.2.8":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.8.tgz#3fd0d23d2b0df84c7c4e29f0621eef2addd801ee"
-  integrity sha512-MxyBjEMgSuuia4svylfmBjlJKIGx69kiTxtjun/9mnLrwOq81ZmPd0ye50q8EkSm+umY0JtjBElN9xGRCBorvQ==
+"@frctl/handlebars@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.9.tgz#d3494abe9bcce064800b2a0334a146658796dc7f"
+  integrity sha512-WAJqJuUGrpr94FDHzcG2S885wPTWVuVvS6hz2S+Ixw4LGhVtuOgwzuN6ijSK6KEonLoKIok//SUgv24Phh1n+w==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     bluebird "^3.7.2"
     handlebars "^4.7.7"
     lodash "^4.17.21"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.8.2":
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.8.2.tgz#4bf57fb896efd5d812eb598fc460a0cc3dffe870"
-  integrity sha512-tJLokyy85YSkgO+Lg0NoxQFEAnpo8SnRvDGtmXEyANDwfNM1oSb+XO33hJ4dZgk4PIHwX+GJg0564nxfgxKKmg==
+"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.0.tgz#4f0e55a0f58bb175a6f0382db073f664b5ab10da"
+  integrity sha512-U0R0q95fFdwuLKuKTXuaAWESZdBjCvWZRRb37DrM0RyjZdiD39PRwsTaXw9KBWFlQ9H7J/htpuyIYJo3BThKJQ==
   dependencies:
-    "@frctl/web" "^0.1.6"
+    "@frctl/web" "^0.1.7"
     js-beautify "^1.13.1"
     lodash "^4.17.21"
 
@@ -104,12 +125,12 @@
     lodash "^4.17.21"
     twig "^1.15.4"
 
-"@frctl/web@^0.1.6":
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.6.tgz#d071edb489e75f4598d5ebafa2225cc6d4340e29"
-  integrity sha512-N119MVddvvkgvV6MMO35+/VaVJ+7ufnASkrkfs/CvD2fchYqYLYuZrTaXIFaR1/418kA/+EfUGgXlwI13YNi7Q==
+"@frctl/web@^0.1.7":
+  version "0.1.7"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.7.tgz#3942d5cdea0ddd0b8ed8116a0b036b8d8ec113a5"
+  integrity sha512-df3xGVewZM8sZP1liDII4pY1AVmZAF2KvXu9Fpb/2FfaUm5OnbDdNWEiGRItRHMMCfCzoOm7S2aO+VJMyml0TQ==
   dependencies:
-    "@frctl/core" "^0.2.4"
+    "@frctl/core" "^0.3.0"
     anymatch "^2.0.0"
     bluebird "^3.7.2"
     browser-sync "^2.26.14"
@@ -4767,7 +4788,7 @@ heroicons@^0.4.2:
   resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-0.4.2.tgz#edaffde42d14bffdd456f0566fd9b8e295ad69e2"
   integrity sha512-24Bc6LKmamKHzGiNC80/r9v/7pQrma2V5KlaLUHGoarqm+hggmxnngU+RjHQT8sANWPa5FWKLftn4fpmvry/7w==
 
-highlight.js@^10.6.0:
+highlight.js@^10.6.0, highlight.js@^10.7.1:
   version "10.7.1"
   resolved "https://registry.yarnpkg.com/highlight.js/-/highlight.js-10.7.1.tgz#a8ec4152db24ea630c90927d6cae2a45f8ecb955"
   integrity sha512-S6G97tHGqJ/U8DsXcEdnACbirtbx58Bx9CzIVeYli8OuswCfYI/LsXH2EiGcoGio1KAC3x4mmUwulOllJ2ZyRA==
