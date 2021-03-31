@@ -15,7 +15,7 @@
     "alpinejs": "^2.8.1",
     "autoprefixer": "^9.8.6",
     "hc-sticky": "^2.2.6",
-    "heroicons": "^0.4.2",
+    "heroicons": "^1.0.0",
     "lazysizes": "^5.3.0",
     "mapbox-gl": "^1.13.1",
     "postcss-cli": "^7.1.2",
