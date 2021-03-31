@@ -93,6 +93,7 @@ gulp.task('icons', function() {
         'node_modules/heroicons/outline/information-circle.svg',
         'node_modules/heroicons/outline/question-mark-circle.svg',
         // Directions
+        'node_modules/heroicons/outline/arrow-right.svg',
         'node_modules/heroicons/outline/chevron-down.svg',
         'node_modules/heroicons/outline/chevron-left.svg',
         'node_modules/heroicons/outline/chevron-right.svg',
