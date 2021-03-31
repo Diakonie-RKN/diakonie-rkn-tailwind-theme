@@ -6,10 +6,6 @@ module.exports = {
       'dist/**/*.js',
     ],
   },
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
-  },
   theme: {
     aspectRatio: {
       none: 0,
@@ -93,7 +89,7 @@ module.exports = {
           'light': '#d1d1d1',
         },
         'dw-area-1': {
-          'default': '#5A2572',
+          DEFAULT: '#5A2572',
           '500': '#642472',
           '400': '#69357C',
           '300': '#72357C',
@@ -101,7 +97,7 @@ module.exports = {
           '100': '#814887',
         },
         'dw-area-2': {
-          'default': '#2E2672',
+          DEFAULT: '#2E2672',
           '500': '#3A2673',
           '400': '#41347C',
           '300': '#4B357C',
@@ -109,7 +105,7 @@ module.exports = {
           '100': '#5D4587'
         },
         'dw-area-3': {
-          'default': '#6E2272',
+          DEFAULT: '#6E2272',
           '500': '#782172',
           '400': '#7C357C',
           '300': '#85357C',
@@ -117,7 +113,7 @@ module.exports = {
           '100': '#914987'
         },
         'dw-area-4': {
-          'default': '#462672',
+          DEFAULT: '#462672',
           '500': '#502572',
           '400': '#55357C',
           '300': '#5F357C',
@@ -150,7 +146,7 @@ module.exports = {
     aspectRatio: ['responsive'],
   },
   plugins: [
-    require('@tailwindcss/custom-forms'),
+    require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
     require('tailwindcss-debug-screens'),
     require('tailwindcss-responsive-embed'),
