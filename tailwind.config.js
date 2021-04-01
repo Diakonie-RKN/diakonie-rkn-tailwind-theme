@@ -30,38 +30,8 @@ module.exports = {
         '"Noto Color Emoji"',
       ]
     },
-    customForms: theme => ({
-      default: {
-        'input, textarea, multiselect, select': {
-          borderRadius: theme('borderRadius.none'),
-          backgroundColor: theme('colors.dw-gray.light'),
-          '&:focus': {
-            backgroundColor: theme('colors.white'),
-            borderColor: theme('colors.dw-gray.dark')
-          }
-        },
-        checkbox: {
-          width: theme('spacing.6'),
-          height: theme('spacing.6'),
-          iconColor: theme('colors.dw-cyan'),
-        },
-      },
-      dark: {
-        'input, textarea, multiselect, select': {
-          borderRadius: theme('borderRadius.none'),
-          borderColor: theme('colors.dw-area-2.500'),
-          backgroundColor: theme('colors.dw-area-2.400'),
-          color: theme('colors.white'),
-          '&:focus': {
-            backgroundColor: theme('colors.white'),
-            borderColor: theme('colors.dw-area-2.100'),
-            color: theme('colors.dw-black')
-          },
-        },
-      },
-    }),
     typography: (theme) => ({
-      default: {
+      DEFAULT: {
         css: {
           color: theme('colors.dw-black'),
           a: {
