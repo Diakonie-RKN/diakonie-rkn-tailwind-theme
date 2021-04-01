@@ -20,7 +20,7 @@
     "mapbox-gl": "^1.13.1",
     "postcss": "^8.2.9",
     "postcss-cli": "^8.3.1",
-    "postcss-import": "^14.0.0",
+    "postcss-import": "^14.0.1",
     "postcss-nested": "^5.0.5",
     "simple-icons": "^4.17.0",
     "simplelightbox": "^2.7.0",
