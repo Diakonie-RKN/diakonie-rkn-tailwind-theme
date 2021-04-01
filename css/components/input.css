@@ -1,7 +1,7 @@
 .input {
-    @apply bg-dw-gray-light border-dw-gray-light color-dw-black focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-gray-dark;
+    @apply bg-dw-gray-light border-dw-gray-light text-dw-black focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-gray-dark;
 }
 
 .input-dark {
-    @apply bg-dw-area-2-400 border-dw-area-2-500 color-white focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-area-2-100;
+    @apply bg-dw-area-2-400 border-dw-area-2-500 text-white focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-area-2-100;
 }
