@@ -103,9 +103,8 @@ module.exports = {
         '-270': '-270deg',
       },
       spacing: {
-        '72': '18rem',
-        '84': '21rem',
-        '96': '24rem',
+        '128': '32rem',
+        '144': '36rem',
       },
       screens: {
         'print': {'raw': 'print'},
