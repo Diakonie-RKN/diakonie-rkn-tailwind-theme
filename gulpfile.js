@@ -100,8 +100,12 @@ gulp.task('icons', function() {
         'node_modules/heroicons/outline/chevron-up.svg',
         // Brands
         'node_modules/simple-icons/icons/facebook.svg',
+        'img/firstbird.svg',
+        'node_modules/simple-icons/icons/instagram.svg',
+        'img/kununu.svg',
         'node_modules/simple-icons/icons/whatsapp.svg',
         'node_modules/simple-icons/icons/twitter.svg',
+        'node_modules/simple-icons/icons/xing.svg',
         // Misc
         'node_modules/heroicons/solid/camera.svg',
         'node_modules/heroicons/solid/download.svg',
