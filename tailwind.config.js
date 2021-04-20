@@ -30,25 +30,6 @@ module.exports = {
         '"Noto Color Emoji"',
       ]
     },
-    typography: (theme) => ({
-      DEFAULT: {
-        css: {
-          color: theme('colors.dw-black'),
-          a: {
-            color: theme('colors.dw-area-4.500'),
-            '&:hover': {
-              color: theme('colors.dw-area-2'),
-            },
-          },
-          'ul > li::before': {
-            backgroundColor: theme('colors.dw-area-4.500'),
-          },
-          blockquote: {
-            quotes: '"\\201E""\\201D""\\2018""\\2019"',
-          }
-        },
-      },
-    }),
     extend: {
       'colors': {
         'dw-black': '#444',
@@ -110,6 +91,25 @@ module.exports = {
       screens: {
         'print': {'raw': 'print'},
       },
+      typography: (theme) => ({
+        DEFAULT: {
+          css: {
+            color: theme('colors.dw-black'),
+            a: {
+              color: theme('colors.dw-area-4.500'),
+              '&:hover': {
+                color: theme('colors.dw-area-2'),
+              },
+            },
+            'ul > li::before': {
+              backgroundColor: theme('colors.dw-area-4.500'),
+            },
+            blockquote: {
+              quotes: '"\\201E""\\201D""\\2018""\\2019"',
+            }
+          },
+        },
+      }),
     },
   },
   variants: {
