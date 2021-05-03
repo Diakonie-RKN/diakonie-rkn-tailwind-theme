@@ -22,7 +22,7 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.1",
     "postcss-nested": "^5.0.5",
-    "simple-icons": "^4.21.0",
+    "simple-icons": "^4.22.0",
     "simplelightbox": "^2.7.2",
     "tailwindcss": "^2.1.2",
     "tailwindcss-aspect-ratio": "^3.0.0",
