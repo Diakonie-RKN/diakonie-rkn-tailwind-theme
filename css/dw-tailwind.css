@@ -1,9 +1,193 @@
-@import "tailwindcss/base.css";
 @import "./fonts.css";
-@import "./base.css";
 
-@import "tailwindcss/components.css";
-@import "./components.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@import "tailwindcss/utilities.css";
-@import "./utilities.css";
+@layer base {
+    html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 120px;
+    }
+
+    body {
+        @apply text-dw-black bg-dw-gray-dark;
+    }
+
+    [x-cloak] {
+        display: none !important;
+    }
+
+    #main {
+        @apply mx-auto bg-white;
+        max-width: 1600px;
+    }
+
+    h1 {
+        @apply text-2xl;
+    }
+
+    @screen lg {
+        h1 {
+            @apply text-5xl;
+        }
+    }
+}
+
+@layer components {
+    .btn {
+        @apply px-8 py-3 rounded;
+
+        &:focus {
+            @apply ring;
+        }
+
+        &-default {
+            @apply bg-dw-gray-light text-dw-black;
+
+            &:hover {
+                @apply bg-dw-area-4-400 text-white;
+            }
+        }
+
+        &-submit {
+            @apply bg-dw-area-4 text-white;
+
+            &:hover {
+                @apply bg-dw-area-4-400;
+            }
+        }
+
+        &-submit-dark {
+            @apply bg-white text-dw-area-4 border border-white;
+
+            &:hover {
+                @apply bg-transparent text-white;
+            }
+        }
+    }
+
+    .circle-icon-link {
+        @apply flex flex-row items-center;
+
+        span:first-child {
+            @apply bg-dw-area-3-500 text-white rounded-full p-2 flex-shrink-0 mr-3;
+        }
+
+        &:hover {
+            @apply underline;
+
+            span:first-child {
+                @apply bg-dw-area-4;
+            }
+        }
+    }
+
+    dt {
+        @apply font-bold text-xs uppercase;
+    }
+
+    dd {
+        @apply mb-4;
+    }
+
+    .dw-tile {
+        @apply p-12 text-white;
+
+        a {
+            @apply text-white;
+            &:hover {
+                @apply underline;
+            }
+        }
+    }
+
+    .glide {
+        .glide__bullet--active {
+            @apply bg-dw-gray-light !important;
+        }
+    }
+
+    .glide.glide-dark {
+        .glide__bullet--active {
+            @apply bg-dw-area-2 !important;
+        }
+    }
+
+    .input {
+        @apply bg-dw-gray-light border-dw-gray-light text-dw-black focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-gray-dark;
+    }
+
+    .input-dark {
+        @apply bg-dw-area-2-400 border-dw-area-2-500 text-white focus:outline-none focus:bg-white focus:text-dw-black focus:ring focus:ring-dw-area-2-100;
+    }
+
+    .main-navigation {
+        @apply bg-white shadow;
+
+        ul {
+            @apply py-4;
+        }
+
+        li {
+            a {
+                @apply block;
+            }
+            a, button {
+                @apply text-xl font-bold text-dw-area-4 py-2 px-6 w-full;
+
+                &:hover {
+                    @apply underline;
+                }
+            }
+
+            button.back {
+                @apply text-base font-bold uppercase text-dw-gray-dark border-b border-dw-gray-light mb-3 pb-5;
+            }
+
+            &.active {
+                a, button {
+                    @apply bg-dw-area-1 text-white;
+                }
+            }
+
+            &.active-parent {
+                a, button {
+                    @apply bg-dw-area-1-200 text-white;
+                }
+            }
+        }
+    }
+
+    .pagination {
+        @apply flex flex-row justify-center items-center;
+
+        li {
+            @apply px-2;
+        }
+
+        a {
+            @apply w-8 h-8 rounded-full border border-transparent transform ease-in-out duration-200 flex items-center justify-center;
+
+            &:hover {
+                @apply text-dw-black border-dw-gray-dark;
+            }
+        }
+
+        .next a, .prev a {
+            @apply border-dw-area-3 bg-dw-area-3 text-white;
+
+            &:hover {
+                @apply bg-white text-dw-area-3;
+            }
+        }
+
+        .active a {
+            @apply text-dw-cyan font-bold;
+
+            &:hover {
+                @apply text-dw-black border-dw-gray-dark;
+            }
+        }
+    }
+}
