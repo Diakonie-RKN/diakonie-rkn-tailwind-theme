@@ -107,13 +107,12 @@
     lodash "^4.17.21"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.0":
-  version "1.9.0"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.0.tgz#4f0e55a0f58bb175a6f0382db073f664b5ab10da"
-  integrity sha512-U0R0q95fFdwuLKuKTXuaAWESZdBjCvWZRRb37DrM0RyjZdiD39PRwsTaXw9KBWFlQ9H7J/htpuyIYJo3BThKJQ==
+"@frctl/mandelbrot@^1.9.0", "@frctl/mandelbrot@^1.9.2":
+  version "1.9.2"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.2.tgz#6cbbb72dfaf090fcc9ba90738cdaa97eb68d399e"
+  integrity sha512-Kq32gGnGkEtKekt8jAuRIaMX2EQHQYW1M14up+2OxbLEDcFYNjBjg9enTIHHof+ToS4lCz1Ha2Ek0rCq+Zozqw==
   dependencies:
-    "@frctl/web" "^0.1.7"
-    js-beautify "^1.13.1"
+    js-beautify "^1.13.13"
     lodash "^4.17.21"
 
 "@frctl/twig@^1.2.4":
@@ -5609,10 +5608,10 @@ istextorbinary@^5.12.0:
     editions "^6.1.0"
     textextensions "^5.11.0"
 
-js-beautify@^1.13.1:
-  version "1.13.5"
-  resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.13.5.tgz#a08a97890cae55daf1d758d3f6577bd4a64d7014"
-  integrity sha512-MsXlH6Z/BiRYSkSRW3clNDqDjSpiSNOiG8xYVUBXt4k0LnGvDhlTGOlHX1VFtAdoLmtwjxMG5qiWKy/g+Ipv5w==
+js-beautify@^1.13.13:
+  version "1.13.13"
+  resolved "https://registry.yarnpkg.com/js-beautify/-/js-beautify-1.13.13.tgz#756907d1728f329f2b84c42efd56ad17514620bf"
+  integrity sha512-oH+nc0U5mOAqX8M5JO1J0Pw/7Q35sAdOsM5W3i87pir9Ntx6P/5Gx1xLNoK+MGyvHk4rqqRCE4Oq58H6xl2W7A==
   dependencies:
     config-chain "^1.1.12"
     editorconfig "^0.15.3"
