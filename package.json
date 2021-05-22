@@ -6,7 +6,7 @@
   "dependencies": {
     "@frctl/fractal": "^1.5.8",
     "@frctl/mandelbrot": "^1.4.0",
-    "@frctl/twig": "^1.2.4",
+    "@frctl/twig": "^1.2.9",
     "@glidejs/glide": "^3.4.1",
     "@sidsbrmnn/scrollspy": "^1.0.4",
     "@tailwindcss/forms": "^0.3.2",
