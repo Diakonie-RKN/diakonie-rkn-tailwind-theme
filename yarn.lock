@@ -44,7 +44,7 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.3.0", "@frctl/core@^0.3.1":
+"@frctl/core@^0.3.1":
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.1.tgz#dc5645d336fa9bbc1009af564e36e03a3aa0f6ea"
   integrity sha512-BfxnMaVHQlR5eUqG5z5BG8d+S+a4MzBGE5TbROt1dLBpChI4UPynTwib5h9EHJ5TYwkWz2/6lRqhjtnf7dbYjw==
@@ -115,12 +115,12 @@
     js-beautify "^1.13.13"
     lodash "^4.17.21"
 
-"@frctl/twig@^1.2.4":
-  version "1.2.8"
-  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.8.tgz#6e78985623fc313ffa435361ea2a95afe0805855"
-  integrity sha512-C7ZNXmojoBMPWMLYOM983nPdDLxLMHy4x/UaG7bksv3aozXRNGwQ2pF/w0sFscV89Y0BILD9qL6feeBYfx4cUA==
+"@frctl/twig@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@frctl/twig/-/twig-1.2.9.tgz#649e766e80627a257b1097e88be80bec8b5cfe74"
+  integrity sha512-Jo3YgU5pAkxFoCqbCtkO7Lg9n+FMYCbNacWL3g7Vl4Z8GcQUbq9zCYgBphYS6a8fFtIPBa8K4yX4BqE1Q7ohwA==
   dependencies:
-    "@frctl/core" "^0.3.0"
+    "@frctl/core" "^0.3.1"
     lodash "^4.17.21"
     twig "^1.15.4"
 
