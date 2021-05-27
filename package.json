@@ -13,7 +13,7 @@
     "@tailwindcss/typography": "^0.4.1",
     "@turf/turf": "^6.3.0",
     "alpinejs": "^2.8.1",
-    "autoprefixer": "^10.2.5",
+    "autoprefixer": "^10.2.6",
     "hc-sticky": "^2.2.6",
     "heroicons": "^1.0.1",
     "lazysizes": "^5.3.2",
