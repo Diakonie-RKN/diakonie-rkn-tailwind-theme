@@ -4839,10 +4839,10 @@ hasha@^2.2.0:
     is-stream "^1.0.1"
     pinkie-promise "^2.0.0"
 
-hc-sticky@^2.2.6:
-  version "2.2.6"
-  resolved "https://registry.yarnpkg.com/hc-sticky/-/hc-sticky-2.2.6.tgz#39d086f72541a140ce66bdba2a46fe07f1334a02"
-  integrity sha512-Yq/IZR+iHNmKqx8qymLcuN3Vns82cHrj9K0/cYQFt+lfo97vnKsX9GFy9c9QWvoT6744hCOO+NdXYJAEG0qDsQ==
+hc-sticky@^2.2.7:
+  version "2.2.7"
+  resolved "https://registry.yarnpkg.com/hc-sticky/-/hc-sticky-2.2.7.tgz#06f8f4f3bddc808e773f9bd420fa5268112bd014"
+  integrity sha512-xGEvtKqwztK3xC5a26U0ZNLu8bNMP378ZPuEfHRxHtQCsT/Y0Kg7BG3w02oWuD46ecOWUioUZoJAXT2tJs3Q7Q==
 
 he@1.1.1:
   version "1.1.1"
