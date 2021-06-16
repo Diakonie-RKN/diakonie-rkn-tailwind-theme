@@ -25,8 +25,7 @@ gulp.task('copy-js-tools', function () {
     return gulp.src([
         'node_modules/lazysizes/lazysizes.min.js',
         'node_modules/lazysizes/plugins/print/ls.print.min.js',
-        'node_modules/alpinejs/dist/alpine.js',
-        'node_modules/alpinejs/dist/alpine-ie11.js',
+        'node_modules/alpinejs/dist/cdn.min.js',
         'node_modules/@glidejs/glide/dist/glide.min.js',
         'node_modules/@glidejs/glide/dist/css/glide.core.min.css',
         'node_modules/mapbox-gl/dist/mapbox-gl.js',
