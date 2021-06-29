@@ -4350,11 +4350,12 @@ gulp-svg-sprite@^1.5.0:
     svg-sprite "^1.5.0"
     through2 "^2.0.3"
 
-gulp-svgmin@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/gulp-svgmin/-/gulp-svgmin-4.0.0.tgz#318c580e36a7197199424a233a5f1745bcf10348"
-  integrity sha512-YXOBreZG+qyrbGMVtW+xGVSeHqTghOk3ADeb8/UVDq5ddPTP6gan+zO5WO8NrBKxl1kXL/fPCQILXYcbrxrpeg==
+gulp-svgmin@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/gulp-svgmin/-/gulp-svgmin-4.0.1.tgz#27b1d4f47532f75f35b52893220001b6f05667b0"
+  integrity sha512-MLFqlN8sP4LqyvgzYXomDQ3S8HwYRe6wzuQn7cd+yZ4Tb54eN+4l24Iyz9Z8Q2daPSpc1v49rvv6u9/qpAHoWQ==
   dependencies:
+    lodash.clonedeep "^4.5.0"
     plugin-error "^1.0.1"
     svgo "^2.3.1"
 
@@ -5636,6 +5637,11 @@ lodash.castarray@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.castarray/-/lodash.castarray-4.4.0.tgz#c02513515e309daddd4c24c60cfddcf5976d9115"
   integrity sha1-wCUTUV4wna3dTCTGDP3c9ZdtkRU=
+
+lodash.clonedeep@^4.5.0:
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz#e23f3f9c4f8fbdde872529c1071857a086e5ccef"
+  integrity sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8=
 
 lodash.defaults@^4.0.1:
   version "4.2.0"
