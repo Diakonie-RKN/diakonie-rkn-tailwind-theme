@@ -11,7 +11,7 @@
     "@sidsbrmnn/scrollspy": "^1.0.4",
     "@tailwindcss/forms": "^0.3.3",
     "@tailwindcss/typography": "^0.4.1",
-    "@turf/turf": "^6.4.0",
+    "@turf/turf": "^6.5.0",
     "alpinejs": "^3.2.1",
     "autoprefixer": "^10.3.0",
     "hc-sticky": "^2.2.7",
