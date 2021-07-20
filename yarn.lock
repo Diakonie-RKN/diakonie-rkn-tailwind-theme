@@ -107,10 +107,10 @@
     lodash "^4.17.21"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.2.tgz#6cbbb72dfaf090fcc9ba90738cdaa97eb68d399e"
-  integrity sha512-Kq32gGnGkEtKekt8jAuRIaMX2EQHQYW1M14up+2OxbLEDcFYNjBjg9enTIHHof+ToS4lCz1Ha2Ek0rCq+Zozqw==
+"@frctl/mandelbrot@^1.9.2", "@frctl/mandelbrot@^1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.3.tgz#9327a7978a01a195b1364e8848b3180454464822"
+  integrity sha512-QUKloeitptvWXGsF/achUFH2vXn9gOUAVGrfgX1lRu+EzdqRxXBxka5vQ28MC1YVMQCs/X+v+H88p7dW2nNzrw==
   dependencies:
     js-beautify "^1.13.13"
     lodash "^4.17.21"
