@@ -44,10 +44,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.3.1":
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.1.tgz#dc5645d336fa9bbc1009af564e36e03a3aa0f6ea"
-  integrity sha512-BfxnMaVHQlR5eUqG5z5BG8d+S+a4MzBGE5TbROt1dLBpChI4UPynTwib5h9EHJ5TYwkWz2/6lRqhjtnf7dbYjw==
+"@frctl/core@^0.3.1", "@frctl/core@^0.3.3":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.3.tgz#768f476cd3f2ea6dac9c58883f812905bd7f7d3f"
+  integrity sha512-VCW93BD6CdBVbuvGfZ9oNyAPkWbnmXXBuGKBkfnADdg9fwOXr9EBKgBmuWMaRhg25yw9ANL+/Nk9ABgGCMMNhQ==
   dependencies:
     "@allmarkedup/fang" "^2.0.0"
     anymatch "^3.1.2"
@@ -65,15 +65,15 @@
     mixwith "^0.1.1"
     readable-stream "^3.6.0"
 
-"@frctl/fractal@^1.5.9":
-  version "1.5.9"
-  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.9.tgz#b26fdecfe45a29161dff3b3b195e5146327df439"
-  integrity sha512-ukm0fTXjStp2HOywfKE/gSRHogStpn+CbHa50ZcfPTwvQ3cwmVq1OCrpiJoWoq5GpxgEkgZexoPsaSph+kwLZw==
+"@frctl/fractal@^1.5.11":
+  version "1.5.11"
+  resolved "https://registry.yarnpkg.com/@frctl/fractal/-/fractal-1.5.11.tgz#3928c9d6e4aa36d76436a311b2ea4cee329fec8d"
+  integrity sha512-HdCoIaqD1iRqLAF8CzvRkI2Tb98is8dKnMtzMk7juuMWCL25L3LQcmWhDJcVkRdN7vH+S3PgjKZw2jC8TjZ4QA==
   dependencies:
-    "@frctl/core" "^0.3.1"
-    "@frctl/handlebars" "^1.2.11"
-    "@frctl/mandelbrot" "^1.9.2"
-    "@frctl/web" "^0.1.8"
+    "@frctl/core" "^0.3.3"
+    "@frctl/handlebars" "^1.2.13"
+    "@frctl/mandelbrot" "^1.9.4"
+    "@frctl/web" "^0.1.10"
     anymatch "^3.1.2"
     bluebird "^3.7.2"
     chalk "^4.1.1"
@@ -96,21 +96,21 @@
     vinyl "^2.2.1"
     vorpal "^1.12.0"
 
-"@frctl/handlebars@^1.2.11":
-  version "1.2.11"
-  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.11.tgz#343fc5289196b6ac06e2a8a3aac8d032129798f4"
-  integrity sha512-CymgYU53bC5i4Ej4QRIBOgaZVeAcyaEBeIaK9y18UyiULj1gUANgtudPlIbTDHnh+QX4FZt133DeTaPDYfErLQ==
+"@frctl/handlebars@^1.2.13":
+  version "1.2.13"
+  resolved "https://registry.yarnpkg.com/@frctl/handlebars/-/handlebars-1.2.13.tgz#99a93d19c03a413bc3d49e41fd18d5a27e30fa62"
+  integrity sha512-IqUwH5Yp1tS0o601IC/dzMdCaFqZe8yE8vJZYqkWRX9QJf1rnzPngBFpdsPewdLaxMZcQ/R38EMp6xM3XoiClw==
   dependencies:
-    "@frctl/core" "^0.3.1"
+    "@frctl/core" "^0.3.3"
     bluebird "^3.7.2"
     handlebars "^4.7.7"
     lodash "^4.17.21"
     promised-handlebars "^2.0.1"
 
-"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.2.tgz#6cbbb72dfaf090fcc9ba90738cdaa97eb68d399e"
-  integrity sha512-Kq32gGnGkEtKekt8jAuRIaMX2EQHQYW1M14up+2OxbLEDcFYNjBjg9enTIHHof+ToS4lCz1Ha2Ek0rCq+Zozqw==
+"@frctl/mandelbrot@^1.4.0", "@frctl/mandelbrot@^1.9.4":
+  version "1.9.4"
+  resolved "https://registry.yarnpkg.com/@frctl/mandelbrot/-/mandelbrot-1.9.4.tgz#25ae9525c919a5902f1082bfd55f5e1df9612274"
+  integrity sha512-Zeu8tohZZo0OLdfawMv/SVGjT+xEc7I+C3wmxenlQlZnhohzm6FZrAO4/MV/YTrvNbysoWMdEbkNLte/h+/PCQ==
   dependencies:
     js-beautify "^1.13.13"
     lodash "^4.17.21"
@@ -124,12 +124,12 @@
     lodash "^4.17.21"
     twig "^1.15.4"
 
-"@frctl/web@^0.1.8":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.8.tgz#dbddc19dbbfa1016e63dc3b5a7f4664e9f80157b"
-  integrity sha512-hQFcMUEc5U+kbc1+Ins+8FTyTzUe0RTygilLvEixWID1nvFng2PsQzIJd4n2Yqk57gEfq1ej9fLrpIQW+p3wGA==
+"@frctl/web@^0.1.10":
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/@frctl/web/-/web-0.1.10.tgz#49594845932bad7b64d134a2ed9258e106cc8e6d"
+  integrity sha512-3CT4d45CXAw2iHlCdU6fSap1WZlteI8Iwje749wKE78bMBIKz5f17ig+gRzclgE8YadK+U1bjPhU5XstjQUHMw==
   dependencies:
-    "@frctl/core" "^0.3.1"
+    "@frctl/core" "^0.3.3"
     anymatch "^3.1.2"
     bluebird "^3.7.2"
     browser-sync "^2.26.14"
