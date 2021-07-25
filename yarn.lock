@@ -44,7 +44,7 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@frctl/core@^0.3.1", "@frctl/core@^0.3.3":
+"@frctl/core@^0.3.3":
   version "0.3.3"
   resolved "https://registry.yarnpkg.com/@frctl/core/-/core-0.3.3.tgz#768f476cd3f2ea6dac9c58883f812905bd7f7d3f"
   integrity sha512-VCW93BD6CdBVbuvGfZ9oNyAPkWbnmXXBuGKBkfnADdg9fwOXr9EBKgBmuWMaRhg25yw9ANL+/Nk9ABgGCMMNhQ==
