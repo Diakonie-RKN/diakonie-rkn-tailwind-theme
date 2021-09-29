@@ -2537,11 +2537,6 @@ colorette@^1.2.1, colorette@^1.4.0:
   resolved "https://registry.yarnpkg.com/colorette/-/colorette-1.4.0.tgz#5190fbb87276259a86ad700bff2c6d6faa3fca40"
   integrity sha512-Y2oEozpomLn7Q3HFP7dpww7AtMJplbM9lGZP6RDfHqmbeRjiwRg4n6VM6j4KLmRke85uWEI7JqF17f3pqdRA0g==
 
-colorette@^2.0.0:
-  version "2.0.12"
-  resolved "https://registry.yarnpkg.com/colorette/-/colorette-2.0.12.tgz#7938ab254e7bb1bba29b0fd1b4cc168889ca4d74"
-  integrity sha512-lHID0PU+NtFzeNCwTL6JzUKdb6kDpyEjrwTD1H0cDZswTbsjLh2wTV2Eo2sNZLc0oSg0a5W1AI4Nj7bX4iIdjA==
-
 colors@^1.1.2, colors@^1.2.1:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/colors/-/colors-1.4.0.tgz#c50491479d4c1bdaed2c9ced32cf7c7dc2360f78"
@@ -5932,10 +5927,10 @@ nanocolors@^0.1.5:
   resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.1.6.tgz#bc2350d3edfdbfadd7ac018c855ae7c13905a6ad"
   integrity sha512-2pvTw6vYRaBLGir2xR7MxaJtyWkrn+C53EpW8yPotG+pdAwBvt0Xwk4VJ6VHLY0aLthVZPvDfm9TdZvrvAm5UQ==
 
-nanocolors@^0.2.2:
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.11.tgz#f2573e6872f1b70067423fc68bbc9d0de2f3bbee"
-  integrity sha512-83ttyvfJj66dKMadWfBkEUOEDFfRc8FpzTJvh1MySR/pzWFmFikTQZGOV6kHZRz7yR/heiQ1y/MHBBN5P/e7WQ==
+nanocolors@^0.2.11, nanocolors@^0.2.2:
+  version "0.2.12"
+  resolved "https://registry.yarnpkg.com/nanocolors/-/nanocolors-0.2.12.tgz#4d05932e70116078673ea4cc6699a1c56cc77777"
+  integrity sha512-SFNdALvzW+rVlzqexid6epYdt8H9Zol7xDoQarioEFcFN0JHo4CYNztAxmtfgGTVRCmFlEOqqhBpoFGKqSAMug==
 
 nanoid@^3.1.25:
   version "3.1.25"
@@ -6544,17 +6539,17 @@ posix-character-classes@^0.1.0:
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
   integrity sha1-AerA/jta9xoqbAL+q7jB/vfgDqs=
 
-postcss-cli@^9.0.0:
-  version "9.0.0"
-  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-9.0.0.tgz#5e605987900bf6663f786e0e4de715a65603aadd"
-  integrity sha512-tg6MK/jYyO7Ye9PObPYkjCQa7Bh2K6dA3a3I0muczRuw4T4HAtOTpPR+nOCw+On+WDB2sdsbGOsjlwO8BNRbUw==
+postcss-cli@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-cli/-/postcss-cli-9.0.1.tgz#4c3c5dac092fd048457ffc337eeff9e6415d55e7"
+  integrity sha512-zO160OBaAZBFUWO+QZIzEKMjnPIc5c61dMg1d7xafblh9cxbNb6s16ahJuP91PcVsu//gqr7BKllJxRiRDsSYw==
   dependencies:
     chokidar "^3.3.0"
-    colorette "^2.0.0"
     dependency-graph "^0.11.0"
     fs-extra "^10.0.0"
     get-stdin "^9.0.0"
     globby "^12.0.0"
+    nanocolors "^0.2.11"
     postcss-load-config "^3.0.0"
     postcss-reporter "^7.0.0"
     pretty-hrtime "^1.0.3"
