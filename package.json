@@ -9,7 +9,7 @@
     "@frctl/twig": "^1.2.11",
     "@glidejs/glide": "^3.4.1",
     "@sidsbrmnn/scrollspy": "^1.0.4",
-    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/forms": "^0.3.4",
     "@tailwindcss/typography": "^0.4.1",
     "@turf/turf": "^6.5.0",
     "alpinejs": "^3.4.2",
