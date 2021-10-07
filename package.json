@@ -17,7 +17,7 @@
     "hc-sticky": "^2.2.7",
     "heroicons": "^1.0.4",
     "lazysizes": "^5.3.2",
-    "mapbox-gl": "^1.13.1",
+    "mapbox-gl": "^2.5.1",
     "postcss": "^8.3.9",
     "postcss-cli": "^9.0.1",
     "postcss-import": "^14.0.2",
