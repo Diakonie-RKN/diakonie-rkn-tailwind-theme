@@ -1,12 +1,9 @@
 {
   "name": "@Diakonie-RKN/diakonie-rkn-tailwind-theme",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "author": "Jens Kuesters",
   "license": "MIT",
   "dependencies": {
-    "@frctl/fractal": "^1.5.11",
-    "@frctl/mandelbrot": "^1.4.0",
-    "@frctl/twig": "^1.2.11",
     "@glidejs/glide": "^3.4.1",
     "@sidsbrmnn/scrollspy": "^1.0.4",
     "@tailwindcss/forms": "^0.3.4",
