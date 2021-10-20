@@ -7,12 +7,6 @@ module.exports = {
     ],
   },
   theme: {
-    aspectRatio: {
-      none: 0,
-      square: [1, 1],
-      "16/9": [16, 9],
-      "4/3": [4, 3],
-    },
     fontFamily: {
       'sans': [
         '"Helvetica Neue"',
@@ -112,15 +106,11 @@ module.exports = {
       }),
     },
   },
-  variants: {
-    aspectRatio: ['responsive'],
-  },
   plugins: [
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
+    require('@tailwindcss/aspect-ratio'),
     require('tailwindcss-debug-screens'),
-    require('tailwindcss-responsive-embed'),
-    require('tailwindcss-aspect-ratio'),
     require("tailwindcss-padding-safe")(),
   ],
 }
