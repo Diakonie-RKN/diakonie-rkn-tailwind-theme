@@ -3443,10 +3443,10 @@ hc-sticky@^2.2.7:
   resolved "https://registry.yarnpkg.com/hc-sticky/-/hc-sticky-2.2.7.tgz#06f8f4f3bddc808e773f9bd420fa5268112bd014"
   integrity sha512-xGEvtKqwztK3xC5a26U0ZNLu8bNMP378ZPuEfHRxHtQCsT/Y0Kg7BG3w02oWuD46ecOWUioUZoJAXT2tJs3Q7Q==
 
-heroicons@^1.0.4:
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-1.0.4.tgz#58a9c5fafae7185fca79f8b47251484903e4dc0a"
-  integrity sha512-dn1OvwZruCNEmNDr+TRvG5MejL9kW4VtVQO2Y1yfp7rz0+yWqpkjwwFRTQ8VHBF26oNMMUofQYA+Jl363Y7JdA==
+heroicons@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/heroicons/-/heroicons-1.0.5.tgz#75c8bc02ecd707d93dc86f4a058569ee24ecfe6c"
+  integrity sha512-QMidnnCbBSmnuN0ieh6lDvAmIFeUoPyPv0z1/3Q2gM8c69aIcoolMCg9i0MZXwnNE//jWU1sxEFY4T2o1fYgeg==
 
 hex-color-regex@^1.1.0:
   version "1.1.0"
