@@ -5642,10 +5642,10 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
-simple-icons@^5.19.0:
-  version "5.19.0"
-  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.19.0.tgz#55fb354d7c92370892b1ffa5fecb9b06040e2ffe"
-  integrity sha512-7UM+1waexojA+2EmMvchCWTIiJY8lEeOxiwBMal+Tqu3GxcOpPXevSm9+1/Fnk0IqmNrF3rTnDDV41m/Utzinw==
+simple-icons@^5.21.1:
+  version "5.21.1"
+  resolved "https://registry.yarnpkg.com/simple-icons/-/simple-icons-5.21.1.tgz#e0714f8051c101b5cb8dfa8833a8a35ac77dba60"
+  integrity sha512-VssiOz7j8SBDrtOG9K+MKzf333bMTAUzV3BFCeDEOJsNcQRS3pak4+7YH5Il5TGNWRxZG15Q6ygR6FFj1c3sRg==
 
 simple-swizzle@^0.2.2:
   version "0.2.2"
