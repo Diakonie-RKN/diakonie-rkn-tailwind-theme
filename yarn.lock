@@ -5649,10 +5649,10 @@ simple-swizzle@^0.2.2:
   dependencies:
     is-arrayish "^0.3.1"
 
-simplelightbox@^2.9.0:
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.9.0.tgz#70a5c978bd06d8adf93473080c7492cbc7b11184"
-  integrity sha512-KePIdw1NEBh91DWFO6cx/G7j8FcHCyQLD70R+zaoKlYrKAUPGE3PYi1dUXP0sbOJ7YA0Z/BZszA96TXxB0XaHw==
+simplelightbox@^2.10.1:
+  version "2.10.1"
+  resolved "https://registry.yarnpkg.com/simplelightbox/-/simplelightbox-2.10.1.tgz#623bc09a1f3f87ad943b8c5d94d5dec07de9b9e3"
+  integrity sha512-1NMFYrrC7sd/4uOlRVmqvKRsyab1Z+ak53PLWH+UOLBWL/UL4TFezfOcEZ3e+SSmFgBi7A2cA9MCYp1SdL/cJQ==
 
 skmeans@0.9.7:
   version "0.9.7"
