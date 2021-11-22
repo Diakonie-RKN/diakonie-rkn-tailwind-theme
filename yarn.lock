@@ -32,10 +32,10 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@glidejs/glide@^3.4.1":
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/@glidejs/glide/-/glide-3.4.1.tgz#8ad21f3169076e32bbfd75ed0753807662c25e90"
-  integrity sha512-C34AEcK1HjSyxilRToUL54I6KAoodojUbeRlXoruobZuG0eGm8xfDL+3kgkWj7AJK4EZtunSOYfoqMp70eDtwg==
+"@glidejs/glide@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@glidejs/glide/-/glide-3.5.0.tgz#1490006864b28ca3a50cf2b8e9d724532f3bd07a"
+  integrity sha512-4rivmZUfzqKtCXrPfL0t1VlmKxtQ/8a3gDntvQj8EExxmB7n2NtmAll6MXrJU2b7HVXtyMOzyh45xD3sAZrcJg==
 
 "@koa/router@^9.0.1":
   version "9.4.0"
