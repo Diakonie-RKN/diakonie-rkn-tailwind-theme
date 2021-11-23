@@ -4,7 +4,7 @@
   "author": "Jens Kuesters",
   "license": "MIT",
   "dependencies": {
-    "@glidejs/glide": "^3.5.0",
+    "@glidejs/glide": "^3.5.1",
     "@sidsbrmnn/scrollspy": "^1.0.4",
     "@tailwindcss/aspect-ratio": "^0.3.0",
     "@tailwindcss/forms": "^0.3.4",
