@@ -20,7 +20,7 @@
     "postcss-cli": "^9.0.2",
     "postcss-import": "^14.0.2",
     "postcss-nested": "^5.0.6",
-    "simple-icons": "^5.22.0",
+    "simple-icons": "^6.0.0",
     "simplelightbox": "^2.10.1",
     "tailwindcss": "^2.2.19",
     "tailwindcss-debug-screens": "^2.2.0",
